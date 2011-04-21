@@ -1,5 +1,0 @@
-#!/bin/bash
-echo "Old library path: $LD_LIBRARY_PATH"
-export LD_LIBRARY_PATH=../../gp2d/trunk:$LD_LIBRARY_PATH
-echo "New library path: $LD_LIBRARY_PATH"
-./iteam

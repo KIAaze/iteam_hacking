@@ -1,9 +1,0 @@
-BUGS:
-=====
--Sometimes when jumping close to a "wall", you can climb the wall (lift effect). (could be fun to leave in the game as bug to exploit ^^ ) => seems to come from the fact that player is moved up in case of collision
-ex: jump at the left of the column in egypt
--Sometimes you can jump through a "ceiling". => seems to come from the fact that player is moved up in case of collision
-ex: jump from underneath a palmtree in egypt
--When throwing the bombs, sometimes, there's no gravity and the bomb goes away in a straight line.
--terrain destruction bug? cf destruction_bug.jpg on the ftp
--It's possible to cause a segmentation fault when playing with dynamite and lots of Susis. Exact cause still unknown.

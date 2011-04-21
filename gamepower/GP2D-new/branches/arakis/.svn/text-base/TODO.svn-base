@@ -1,4 +1,0 @@
-TODO:
-test
-* Make two makefiles: One for embedding the library into the binary, and another one for making a standalone library.
-* Begin implementing OpenAL
