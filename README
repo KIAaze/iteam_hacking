@@ -1,3 +1,14 @@
 Links:
 https://sourceforge.net/projects/i-team/
 https://sourceforge.net/projects/gamepower/
+
+If you wish to contribute, please respect the following rules:
+-keep all data in the data folder
+-do not duplicate/copy folders to create your "branch", use git branch instead
+-please communicate what you are doing to avoid work duplication/branch multiplication
+-never put tabs after the beginning of a line! (tabs for indentation only, spaces for alignement or indentation (tabs vs spaces to be decided))
+
+TODO: Decide on code conventions:
+-tabs vs spaces
+-variable naming (m_,l_,g_,lower/upper/camelCase,underscore,etc)
+-create astyle template if possible
