@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/gamepower/!svn/ver/421/GP2D-new/branches/GP2D_chipmunk_combo/Chipmunk-4.1.0/ruby
+END
+rb_chipmunk.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/gamepower/!svn/ver/421/GP2D-new/branches/GP2D_chipmunk_combo/Chipmunk-4.1.0/ruby/rb_chipmunk.c
+END
+rb_cpSpace.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/gamepower/!svn/ver/421/GP2D-new/branches/GP2D_chipmunk_combo/Chipmunk-4.1.0/ruby/rb_cpSpace.c
+END
+rb_cpBody.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/gamepower/!svn/ver/421/GP2D-new/branches/GP2D_chipmunk_combo/Chipmunk-4.1.0/ruby/rb_cpBody.c
+END
+rb_chipmunk.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/gamepower/!svn/ver/421/GP2D-new/branches/GP2D_chipmunk_combo/Chipmunk-4.1.0/ruby/rb_chipmunk.h
+END
+rb_cpShape.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/gamepower/!svn/ver/421/GP2D-new/branches/GP2D_chipmunk_combo/Chipmunk-4.1.0/ruby/rb_cpShape.c
+END
+extconf.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/gamepower/!svn/ver/421/GP2D-new/branches/GP2D_chipmunk_combo/Chipmunk-4.1.0/ruby/extconf.rb
+END
+rb_cpVect.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/gamepower/!svn/ver/421/GP2D-new/branches/GP2D_chipmunk_combo/Chipmunk-4.1.0/ruby/rb_cpVect.c
+END
+rb_cpBB.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/gamepower/!svn/ver/421/GP2D-new/branches/GP2D_chipmunk_combo/Chipmunk-4.1.0/ruby/rb_cpBB.c
+END
+rb_cpJoint.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/gamepower/!svn/ver/421/GP2D-new/branches/GP2D_chipmunk_combo/Chipmunk-4.1.0/ruby/rb_cpJoint.c
+END

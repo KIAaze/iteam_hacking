@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/arakis/src
+END
+input.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/arakis/src/input.cpp
+END
+graphics.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/arakis/src/graphics.cpp
+END
+collision.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/arakis/src/collision.h
+END
+gp2d.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/arakis/src/gp2d.h
+END
+audio.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/arakis/src/audio.cpp
+END
+input.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/arakis/src/input.h
+END
+graphics.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/arakis/src/graphics.h
+END
+framerate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/arakis/src/framerate.cpp
+END
+audio.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/arakis/src/audio.h
+END
+framerate.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/arakis/src/framerate.h
+END
+cursor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/arakis/src/cursor.cpp
+END
+timer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/arakis/src/timer.cpp
+END
+cursor.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/arakis/src/cursor.h
+END
+gui.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/arakis/src/gui.cpp
+END
+text.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/arakis/src/text.cpp
+END
+timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/arakis/src/timer.h
+END
+core.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/arakis/src/core.cpp
+END
+gui.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/arakis/src/gui.h
+END
+text.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/arakis/src/text.h
+END
+collision.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/arakis/src/collision.cpp
+END
+core.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/arakis/src/core.h
+END

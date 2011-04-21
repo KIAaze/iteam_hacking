@@ -1,0 +1,26 @@
+LIBRARY_DIR = .
+CC=gcc
+
+CFLAGSL32=-L. -L$(LIBRARY_DIR) -I. -I$(LIBRARY_DIR)/lib -I/usr/include/freetype2 
+LDFLAGSL32=-Bdynamic -lgp2d -lfreetype `sdl-config --cflags --libs` -lSDL_mixer  -lSDL_image -lSDL_gfx -lGLU
+CFLAGSL64=-fPIC -L. -L$(LIBRARY_DIR) -I. -I$(LIBRARY_DIR)/lib -I/usr/include/freetype2
+LDFLAGSL64=-Bdynamic -lgp2d -lfreetype `sdl-config --cflags --libs` -lSDL_mixer  -lSDL_image -lSDL_gfx -lGLU
+CFLAGSW32=-L. -I.
+LDFLAGSW32=-lgp2d -lmingw32 -lSDL -lSDL_image -lSDL_mixer -lSDL_gfx -mwindows -lopengl32 -lglu32 -lfreetype
+
+EXE=settings_test
+HEADER_FILES=settings.h
+CPP_FILES=settings_test.cpp settings.cpp
+OBJECTS=settings_test.o settings.o
+
+.SUFFIXES: .cpp .o
+
+.cpp.o:
+	@echo "$< -> $@"
+	$(CC) $(CFLAGSL32) -c $<
+
+all: $(EXE)
+
+$(EXE): $(OBJECTS)
+	@echo "Linking..."
+	$(CC) $(CFLAGSL32) $(LDFLAGSL32) $(OBJECTS) -o $(EXE)

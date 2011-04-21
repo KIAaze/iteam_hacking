@@ -1,0 +1,1 @@
+make -f Makefile.win32 && make -f Makefile.win32 install && cd test && make -f Makefile.win32 && ./bin/test

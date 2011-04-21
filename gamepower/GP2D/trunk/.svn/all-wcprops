@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/gamepower/!svn/ver/491/GP2D/trunk
+END
+exception.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/gamepower/!svn/ver/485/GP2D/trunk/exception.cpp
+END
+point.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/gamepower/!svn/ver/490/GP2D/trunk/point.hpp
+END
+sysinfo.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/gamepower/!svn/ver/491/GP2D/trunk/sysinfo.hpp
+END
+input.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/gamepower/!svn/ver/490/GP2D/trunk/input.cpp
+END
+gp2d.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/gamepower/!svn/ver/491/GP2D/trunk/gp2d.hpp
+END
+rect.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/gamepower/!svn/ver/488/GP2D/trunk/rect.hpp
+END
+exception.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/gamepower/!svn/ver/485/GP2D/trunk/exception.hpp
+END
+input.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/gamepower/!svn/ver/490/GP2D/trunk/input.hpp
+END
+window.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/gamepower/!svn/ver/489/GP2D/trunk/window.cpp
+END
+thread.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/gamepower/!svn/ver/487/GP2D/trunk/thread.cpp
+END
+window.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/gamepower/!svn/ver/489/GP2D/trunk/window.hpp
+END
+thread.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/gamepower/!svn/ver/487/GP2D/trunk/thread.hpp
+END
+color.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/gamepower/!svn/ver/487/GP2D/trunk/color.cpp
+END
+color.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/gamepower/!svn/ver/487/GP2D/trunk/color.hpp
+END
+camera.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/gamepower/!svn/ver/489/GP2D/trunk/camera.cpp
+END
+camera.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/gamepower/!svn/ver/489/GP2D/trunk/camera.hpp
+END
+sysinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/gamepower/!svn/ver/491/GP2D/trunk/sysinfo.h
+END
+texture.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/gamepower/!svn/ver/489/GP2D/trunk/texture.cpp
+END
+texture.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/gamepower/!svn/ver/488/GP2D/trunk/texture.hpp
+END
+engine.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/gamepower/!svn/ver/487/GP2D/trunk/engine.cpp
+END
+string.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/gamepower/!svn/ver/491/GP2D/trunk/string.cpp
+END
+sprite.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/gamepower/!svn/ver/491/GP2D/trunk/sprite.cpp
+END
+object.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/gamepower/!svn/ver/489/GP2D/trunk/object.cpp
+END
+engine.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/gamepower/!svn/ver/485/GP2D/trunk/engine.hpp
+END
+string.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/gamepower/!svn/ver/491/GP2D/trunk/string.hpp
+END
+sprite.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/gamepower/!svn/ver/491/GP2D/trunk/sprite.hpp
+END
+object.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/gamepower/!svn/ver/489/GP2D/trunk/object.hpp
+END
+sysinfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/gamepower/!svn/ver/491/GP2D/trunk/sysinfo.cpp
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/gamepower/!svn/ver/491/GP2D/trunk/makefile
+END
+rect.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/gamepower/!svn/ver/488/GP2D/trunk/rect.cpp
+END
+core.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/gamepower/!svn/ver/485/GP2D/trunk/core.hpp
+END

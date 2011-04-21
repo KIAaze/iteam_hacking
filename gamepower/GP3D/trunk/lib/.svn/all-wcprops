@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/gamepower/!svn/ver/29/GP3D/trunk/lib
+END
+gp3d.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/gamepower/!svn/ver/29/GP3D/trunk/lib/gp3d.h
+END
+light.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/gamepower/!svn/ver/29/GP3D/trunk/lib/light.cpp
+END
+fileio.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/gamepower/!svn/ver/29/GP3D/trunk/lib/fileio.cpp
+END
+primitive.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/gamepower/!svn/ver/29/GP3D/trunk/lib/primitive.cpp
+END
+light.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/gamepower/!svn/ver/29/GP3D/trunk/lib/light.h
+END
+fileio.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/gamepower/!svn/ver/29/GP3D/trunk/lib/fileio.h
+END
+primitive.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/gamepower/!svn/ver/29/GP3D/trunk/lib/primitive.h
+END
+effects.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/gamepower/!svn/ver/29/GP3D/trunk/lib/effects.cpp
+END
+3dmath.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/gamepower/!svn/ver/29/GP3D/trunk/lib/3dmath.cpp
+END
+effects.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/gamepower/!svn/ver/29/GP3D/trunk/lib/effects.h
+END
+3dmath.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/gamepower/!svn/ver/29/GP3D/trunk/lib/3dmath.h
+END
+core.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/gamepower/!svn/ver/29/GP3D/trunk/lib/core.cpp
+END
+camera.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/gamepower/!svn/ver/29/GP3D/trunk/lib/camera.cpp
+END
+core.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/gamepower/!svn/ver/29/GP3D/trunk/lib/core.h
+END
+camera.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/gamepower/!svn/ver/29/GP3D/trunk/lib/camera.h
+END

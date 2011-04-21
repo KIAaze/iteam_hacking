@@ -1,0 +1,46 @@
+
+[filenumbers]
+0=42
+1=1
+2=80
+3=327
+4=102
+5=59
+6=24
+
+[filemarkers]
+0=
+1=
+2=
+3=
+4=
+5=
+6=
+
+[File View]
+filter.file.unmatch=*.so *.o *.a *.la
+filter.file.ignore.hidden=0
+filter.dir.ignore.hidden=0
+
+[executer]
+RunInTerminal=true
+
+[Project State]
+clean before build=false
+
+[filelist]
+0=/home/mark/projects/iteam/iteam/players.cpp
+1=/home/mark/projects/iteam/iteam/missiles.h
+2=/home/mark/projects/iteam/iteam/missiles.cpp
+3=/home/mark/projects/iteam/iteam/runningGameScenes.h
+4=/home/mark/projects/iteam/iteam/runninggamestates.cpp
+5=/home/mark/projects/iteam/iteam/titlegamescene.h
+6=/home/mark/projects/iteam/iteam/titlegamestate.cpp
+
+[Project Tree]
+0=0
+1=0:0
+2=0:1
+
+[File Tree]
+0=0

@@ -1,0 +1,31 @@
+\section{Desktop/cleanstuff/i-team/trunk/weapons.cpp File Reference}
+\label{weapons_8cpp}\index{Desktop/cleanstuff/i-team/trunk/weapons.cpp@{Desktop/cleanstuff/i-team/trunk/weapons.cpp}}
+weapon class 
+
+{\tt \#include \char`\"{}weapons.h\char`\"{}}\par
+{\tt \#include \char`\"{}globals.h\char`\"{}}\par
+{\tt \#include \char`\"{}players.h\char`\"{}}\par
+{\tt \#include \char`\"{}iteam\_\-maths.h\char`\"{}}\par
+{\tt \#include \char`\"{}primitives.h\char`\"{}}\par
+{\tt \#include \char`\"{}explosions.h\char`\"{}}\par
+{\tt \#include $<$iostream$>$}\par
+{\tt \#include $<$stdio.h$>$}\par
+
+
+Include dependency graph for weapons.cpp:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=242pt]{weapons_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Namespaces}
+\begin{CompactItemize}
+\item 
+namespace {\bf iteam}
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+weapon class 
+

@@ -1,0 +1,35 @@
+CC          = g++
+
+CFLAGS      = -I.                         \
+              `freetype-config --cflags`  \
+              `sdl-config --cflags`       \
+              -Wall
+            
+LDFLAGS     = -L. `freetype-config --libs` \
+              `sdl-config --libs` \
+              -lSDL \
+              -lSDLmain \
+              -lSDL_image \
+              -lSDL_net \
+              -lSDL_gfx \
+              -lgp2d
+            
+OBJFILES   := $(patsubst %.cpp,%.o,$(wildcard ./src/*.cpp))
+BINARY      = client-1
+INSTALL_DIR = bin
+
+all: iteam
+
+iteam: $(OBJFILES)
+	@echo "=== Linking: $(OBJFILES) -> $(BINARY)"
+	@$(CC) $(LDFLAGS) -o bin/$(BINARY) $(OBJFILES)
+
+clean:
+	@echo "=== Deleting $(OBJFILES)"
+	@rm $(OBJFILES) -v
+	@echo "=== Deleting bin/$(BINARY)"
+	@rm bin/$(BINARY) -v
+
+%.o: %.cpp
+	@echo "=== Compiling: $< -> $@"
+	$(CC) $(CFLAGS) -c -o $@ $<

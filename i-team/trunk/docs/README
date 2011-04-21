@@ -1,0 +1,7 @@
+This directory contains only the Doxygen configuration file for generating the documentation for yourself. Needless to say, you'll need Doxygen and its dependencies for generating the documentation.
+
+However if you want an already-generated documentation, you can grab it at:
+
+https://i-team.svn.sourceforge.net/svnroot/i-team/docs
+
+Using your favorite SVN checkout method.

@@ -1,0 +1,117 @@
+CC=g++ -g
+
+#-----------------------------------------------------------------------------
+# CFLAGS: Used for compiling. Flag -fPIC is specifically for compilation to
+# shared libraries.
+#-----------------------------------------------------------------------------
+CFLAGS=-fPIC \
+        `sdl-config --cflags` \
+        -Wall -O2
+
+#-----------------------------------------------------------------------------
+# LDFLAGS: Used for the linker.
+#-----------------------------------------------------------------------------
+LDFLAGS=`sdl-config --libs` \
+        -lSDL \
+        -lSDLmain \
+        -lSDL_net \
+        -lSDL_mixer \
+        -lSDL_image \
+        -lSDL_gfx \
+        -lSDL_ttf \
+        -lGL \
+        -lGLU
+
+#-----------------------------------------------------------------------------
+# A few variables:
+#   BINARY_SO: the shared object's name to be generated.
+# 	BIN: the location where the binaries (*.o and executables) need to be
+#	SRC: the source directory of the test.cpp's.
+#-----------------------------------------------------------------------------
+BINARY_SO=libgp2d.so
+SRC=./src
+BIN=./bin
+
+#-----------------------------------------------------------------------------
+# The list of 'object' targets to generate.
+#-----------------------------------------------------------------------------
+OBJECTS_MAIN=$(BIN)/graphics.o $(BIN)/core.o $(BIN)/input.o $(BIN)/framerate.o $(BIN)/text.o $(BIN)/collision.o $(BIN)/audio.o $(BIN)/timer.o $(BIN)/cursor.o
+
+#-----------------------------------------------------------------------------
+# Target `all':
+#	Makes the shared object libgp2d.so
+#-----------------------------------------------------------------------------
+all: init $(OBJECTS_MAIN)
+	$(CC) $(LDFLAGS) -shared -o $(BIN)/$(BINARY_SO) $(OBJECTS_MAIN)
+
+#-----------------------------------------------------------------------------
+# Target `init':
+#	Does pre-initialization before building anything, in this case creating a
+#	directory to hold the binaries.
+#-----------------------------------------------------------------------------
+.PHONY: init
+init:
+	@mkdir -p $(BIN)
+
+#-----------------------------------------------------------------------------
+# Target `install':
+#	Installs the generated shared object and the header files into the
+# 	destined directories (/usr/lib and /usr/include/GP2D). Sudo rights are
+#   necessary to run this.
+#-----------------------------------------------------------------------------
+.PHONY: install
+install:
+	mkdir -p /usr/include/GP2D
+	cp $(SRC)/*.h /usr/include/GP2D
+	cp $(BIN)/libgp2d.so /usr/lib
+
+.PHONY: uninstall
+uninstall:
+	rm -rf /usr/include/GP2D
+	rm /usr/lib/libgp2d.so
+
+#-----------------------------------------------------------------------------
+# Target `clean':
+#	Cleans the generated object files by deleting the 'bin' dir.
+#-----------------------------------------------------------------------------
+.PHONY: clean
+clean:
+	rm -rf ./bin
+
+
+#-----------------------------------------------------------------------------
+# The actual targets for compiling individual source files (along with their
+# dependencies) are starting from here. Why did I write it like this? Well,
+# mainly because it is very helpful in compiling it for testing purposes.
+# If a source file is not changed, it won't be compiled. Speedier compile times!
+#
+# And every target starts with $(BIN)/ because the `all` target refers to the
+# $(BIN)/xxx.o stuff too.
+#-----------------------------------------------------------------------------
+$(BIN)/core.o: $(SRC)/core.cpp $(SRC)/core.h
+	$(CC) $(CFLAGS) -c $(SRC)/core.cpp -o $(BIN)/core.o
+
+$(BIN)/input.o: $(SRC)/input.cpp $(SRC)/input.h
+	$(CC) $(CFLAGS) -c $(SRC)/input.cpp -o $(BIN)/input.o
+
+$(BIN)/graphics.o: $(SRC)/graphics.cpp $(SRC)/graphics.h
+	$(CC) $(CFLAGS) -c $(SRC)/graphics.cpp -o $(BIN)/graphics.o
+
+$(BIN)/framerate.o: $(SRC)/framerate.cpp $(SRC)/framerate.h
+	$(CC) $(CFLAGS) -c $(SRC)/framerate.cpp -o $(BIN)/framerate.o
+
+$(BIN)/text.o: $(SRC)/text.cpp $(SRC)/text.h
+	$(CC) $(CFLAGS) -c $(SRC)/text.cpp -o $(BIN)/text.o
+
+$(BIN)/collision.o: $(SRC)/collision.cpp $(SRC)/collision.h
+	$(CC) $(CFLAGS) -c $(SRC)/collision.cpp -o $(BIN)/collision.o
+
+$(BIN)/audio.o: $(SRC)/audio.cpp $(SRC)/audio.h
+	$(CC) $(CFLAGS) -c $(SRC)/audio.cpp -o $(BIN)/audio.o
+
+$(BIN)/timer.o: $(SRC)/timer.cpp $(SRC)/timer.h
+	$(CC) $(CFLAGS) -c $(SRC)/timer.cpp -o $(BIN)/timer.o
+
+$(BIN)/cursor.o: $(SRC)/cursor.cpp $(SRC)/cursor.h
+	$(CC) $(CFLAGS) -c $(SRC)/cursor.cpp -o $(BIN)/cursor.o
+	

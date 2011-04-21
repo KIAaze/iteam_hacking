@@ -1,0 +1,58 @@
+#ifndef _ITEAM_ENGINE_H
+#define _ITEAM_ENGINE_H
+#include <GP2D/gp2d.h>
+using namespace gp2d;
+#include <iostream>
+#include "statemachine.h"
+#include "intro.h"
+#include "menu.h"
+
+namespace game {
+
+	class iteamIntro;
+	class iteamMenu;
+	
+	class iteam : public stateMachine {
+		protected:
+			static iteam* m_self;
+		private:
+			iteam();
+			GP2DEngine*       m_engine;
+			GP2DWindow*       m_window;
+			GP2DInputHandler* m_input;
+			
+			iteamIntro* m_intro;
+			iteamMenu*  m_menu;
+
+			GP2DGuiCamera*  m_camGui;
+			GP2DGameCamera* m_camGame;
+			GP2DDirector*   m_camDirector;
+			
+			bool m_quit;
+		public:
+			static iteam* instance();
+			~iteam();
+			
+			GP2DEngine* engine();
+			GP2DWindow* window();
+			GP2DInputHandler* input();
+			GP2DDirector* director();
+			GP2DGuiCamera* camGui();
+			GP2DGameCamera* camGame();
+			
+			enum STATE {
+				BEGIN = 0,END = -1,
+				INTRO = 1,
+				MENU,
+				GAME,
+				QUIT,
+				FREE_INTRO = 100,
+			};
+		
+			void init();
+			void run();
+			void quit();
+	};
+
+}
+#endif

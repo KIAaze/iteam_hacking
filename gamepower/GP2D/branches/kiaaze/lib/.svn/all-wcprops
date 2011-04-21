@@ -1,0 +1,365 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/gamepower/!svn/ver/82/GP2D/branches/kiaaze/lib
+END
+GUI_termwin.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_termwin.h
+END
+spritesheet.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/gamepower/!svn/ver/81/GP2D/branches/kiaaze/lib/spritesheet.cpp
+END
+collision.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/gamepower/!svn/ver/59/GP2D/branches/kiaaze/lib/collision.h
+END
+audio.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/gamepower/!svn/ver/81/GP2D/branches/kiaaze/lib/audio.cpp
+END
+inputhandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/inputhandler.h
+END
+GUI_scroll.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_scroll.h
+END
+GUI_menu.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_menu.cpp
+END
+GUI_output.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_output.h
+END
+sprite.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/gamepower/!svn/ver/40/GP2D/branches/kiaaze/lib/sprite.h
+END
+the_font.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/the_font.h
+END
+GUI_area.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_area.cpp
+END
+GUI_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_types.h
+END
+GUI_widgets.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_widgets.h
+END
+GUI_font.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_font.h
+END
+timer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/gamepower/!svn/ver/40/GP2D/branches/kiaaze/lib/timer.cpp
+END
+GUI_button.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_button.h
+END
+3dmath.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/gamepower/!svn/ver/40/GP2D/branches/kiaaze/lib/3dmath.h
+END
+GUI_generic.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_generic.h
+END
+cancel_img.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/cancel_img.h
+END
+GUI_scrollbar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_scrollbar.cpp
+END
+camera.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/gamepower/!svn/ver/40/GP2D/branches/kiaaze/lib/camera.cpp
+END
+freetype.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/gamepower/!svn/ver/40/GP2D/branches/kiaaze/lib/freetype.h
+END
+gui_system.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/gui_system.cpp
+END
+GUI_termwin.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/gamepower/!svn/ver/82/GP2D/branches/kiaaze/lib/GUI_termwin.cpp
+END
+GUI.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI.h
+END
+GUI_loadimage.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_loadimage.h
+END
+GUI_C.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_C.h
+END
+GUI_image.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_image.h
+END
+collision.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/gamepower/!svn/ver/59/GP2D/branches/kiaaze/lib/collision.cpp
+END
+GUI_widget.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_widget.h
+END
+GUI_status.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_status.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/gamepower/!svn/ver/82/GP2D/branches/kiaaze/lib/Makefile
+END
+core.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/gamepower/!svn/ver/82/GP2D/branches/kiaaze/lib/core.h
+END
+fps.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/gamepower/!svn/ver/40/GP2D/branches/kiaaze/lib/fps.h
+END
+inputhandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/inputhandler.cpp
+END
+gp2d.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/gamepower/!svn/ver/81/GP2D/branches/kiaaze/lib/gp2d.h
+END
+GUI_output.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_output.cpp
+END
+okay_img.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/okay_img.h
+END
+spritesheet.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/gamepower/!svn/ver/59/GP2D/branches/kiaaze/lib/spritesheet.h
+END
+audio.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/gamepower/!svn/ver/59/GP2D/branches/kiaaze/lib/audio.h
+END
+sprite.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/gamepower/!svn/ver/81/GP2D/branches/kiaaze/lib/sprite.cpp
+END
+the_checker.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/the_checker.h
+END
+GUI_font.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_font.cpp
+END
+GUI_menu.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_menu.h
+END
+GUI_button.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_button.cpp
+END
+3dmath.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/gamepower/!svn/ver/40/GP2D/branches/kiaaze/lib/3dmath.cpp
+END
+GUI_generic.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_generic.cpp
+END
+GUI_area.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_area.h
+END
+freetype.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/gamepower/!svn/ver/82/GP2D/branches/kiaaze/lib/freetype.cpp
+END
+GUI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/gamepower/!svn/ver/82/GP2D/branches/kiaaze/lib/GUI.cpp
+END
+timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/gamepower/!svn/ver/40/GP2D/branches/kiaaze/lib/timer.h
+END
+GUI_loadimage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_loadimage.cpp
+END
+GUI_C.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_C.cpp
+END
+GUI_image.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_image.cpp
+END
+GUI_widget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_widget.cpp
+END
+core.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/gamepower/!svn/ver/82/GP2D/branches/kiaaze/lib/core.cpp
+END
+fps.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/gamepower/!svn/ver/40/GP2D/branches/kiaaze/lib/fps.cpp
+END
+GUI_scrollbar.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/GUI_scrollbar.h
+END
+camera.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/gamepower/!svn/ver/40/GP2D/branches/kiaaze/lib/camera.h
+END
+gui_system.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/gamepower/!svn/ver/78/GP2D/branches/kiaaze/lib/gui_system.h
+END

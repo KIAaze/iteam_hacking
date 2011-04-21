@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 35
+temp
+*.bmp
+.hg*
+*.orig
+libgp2d.so
+
+
+END

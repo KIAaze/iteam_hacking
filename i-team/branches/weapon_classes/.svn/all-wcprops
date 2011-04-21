@@ -1,0 +1,311 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes
+END
+iteam_maths.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/i-team/!svn/ver/283/branches/weapon_classes/iteam_maths.h
+END
+settings.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/i-team/!svn/ver/276/branches/weapon_classes/settings.cpp
+END
+iteamClusterbomb.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/iteamClusterbomb.cpp
+END
+Player.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/Player.h
+END
+weapons.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/i-team/!svn/ver/276/branches/weapon_classes/weapons.dtd
+END
+CHANGELOG
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/i-team/!svn/ver/276/branches/weapon_classes/CHANGELOG
+END
+options.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/i-team/!svn/ver/276/branches/weapon_classes/options.cfg
+END
+SpriteMap.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/SpriteMap.h
+END
+iteam_trunk.kdevelop
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/iteam_trunk.kdevelop
+END
+functions.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/functions.h
+END
+BUGS
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/i-team/!svn/ver/276/branches/weapon_classes/BUGS
+END
+test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/test.cpp
+END
+iteam.cbp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/i-team/!svn/ver/276/branches/weapon_classes/iteam.cbp
+END
+iteamRazor.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/iteamRazor.h
+END
+libgp2d.so
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/i-team/!svn/ver/282/branches/weapon_classes/libgp2d.so
+END
+iteamGrenade.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/iteamGrenade.cpp
+END
+Explosion.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/Explosion.h
+END
+physics.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/physics.h
+END
+iteamMultirazor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/iteamMultirazor.cpp
+END
+data
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/i-team/!svn/ver/278/branches/weapon_classes/data
+END
+make_all.bat
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/i-team/!svn/ver/276/branches/weapon_classes/make_all.bat
+END
+iteamMissile.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/iteamMissile.h
+END
+Readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/i-team/!svn/ver/276/branches/weapon_classes/Readme.txt
+END
+iteam_maths.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/i-team/!svn/ver/283/branches/weapon_classes/iteam_maths.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/Makefile
+END
+Player.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/Player.cpp
+END
+Weapon.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/Weapon.h
+END
+iteamDynamite.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/iteamDynamite.h
+END
+iteam.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/iteam.cpp
+END
+primitives.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/i-team/!svn/ver/276/branches/weapon_classes/primitives.h
+END
+iteamMedipack.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/iteamMedipack.h
+END
+SpriteMap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/SpriteMap.cpp
+END
+settings.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/i-team/!svn/ver/276/branches/weapon_classes/settings.h
+END
+iteamClusterbomb.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/iteamClusterbomb.h
+END
+functions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/functions.cpp
+END
+iteamRazor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/iteamRazor.cpp
+END
+Explosion.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/Explosion.cpp
+END
+physics.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/physics.cpp
+END
+run
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/i-team/!svn/ver/276/branches/weapon_classes/run
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/i-team/!svn/ver/276/branches/weapon_classes/TODO
+END
+iteamMissile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/iteamMissile.cpp
+END
+globals.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/globals.h
+END
+Weapon.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/Weapon.cpp
+END
+iteamGrenade.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/iteamGrenade.h
+END
+iteamDynamite.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/iteamDynamite.cpp
+END
+library_h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/i-team/!svn/ver/282/branches/weapon_classes/library_h
+END
+weapons.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/i-team/!svn/ver/276/branches/weapon_classes/weapons.xml
+END
+primitives.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/primitives.cpp
+END
+iteamMultirazor.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/iteamMultirazor.h
+END
+iteamMedipack.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/i-team/!svn/ver/290/branches/weapon_classes/iteamMedipack.cpp
+END
+make_all.sh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/i-team/!svn/ver/276/branches/weapon_classes/make_all.sh
+END

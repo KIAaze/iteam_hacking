@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/gamepower/!svn/ver/34/GP2D/branches/aussie/lib
+END
+spritesheet.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/gamepower/!svn/ver/34/GP2D/branches/aussie/lib/spritesheet.cpp
+END
+collision.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/gamepower/!svn/ver/34/GP2D/branches/aussie/lib/collision.h
+END
+gp2d.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/gamepower/!svn/ver/34/GP2D/branches/aussie/lib/gp2d.h
+END
+audio.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/gamepower/!svn/ver/34/GP2D/branches/aussie/lib/audio.cpp
+END
+spritesheet.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/gamepower/!svn/ver/34/GP2D/branches/aussie/lib/spritesheet.h
+END
+sprite.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/gamepower/!svn/ver/34/GP2D/branches/aussie/lib/sprite.cpp
+END
+audio.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/gamepower/!svn/ver/34/GP2D/branches/aussie/lib/audio.h
+END
+sprite.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/gamepower/!svn/ver/34/GP2D/branches/aussie/lib/sprite.h
+END
+3dmath.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/gamepower/!svn/ver/34/GP2D/branches/aussie/lib/3dmath.cpp
+END
+timer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/gamepower/!svn/ver/34/GP2D/branches/aussie/lib/timer.cpp
+END
+freetype.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/gamepower/!svn/ver/34/GP2D/branches/aussie/lib/freetype.cpp
+END
+3dmath.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/gamepower/!svn/ver/34/GP2D/branches/aussie/lib/3dmath.h
+END
+timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/gamepower/!svn/ver/34/GP2D/branches/aussie/lib/timer.h
+END
+freetype.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/gamepower/!svn/ver/34/GP2D/branches/aussie/lib/freetype.h
+END
+fps.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/gamepower/!svn/ver/34/GP2D/branches/aussie/lib/fps.cpp
+END
+core.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/gamepower/!svn/ver/34/GP2D/branches/aussie/lib/core.cpp
+END
+camera.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/gamepower/!svn/ver/34/GP2D/branches/aussie/lib/camera.cpp
+END
+collision.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/gamepower/!svn/ver/34/GP2D/branches/aussie/lib/collision.cpp
+END
+fps.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/gamepower/!svn/ver/34/GP2D/branches/aussie/lib/fps.h
+END
+core.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/gamepower/!svn/ver/34/GP2D/branches/aussie/lib/core.h
+END
+camera.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/gamepower/!svn/ver/34/GP2D/branches/aussie/lib/camera.h
+END

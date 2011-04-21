@@ -1,0 +1,25 @@
+syntax: glob
+*~
+*.aux
+*.dvi
+*.log
+*.ps
+*.pdf
+*.lof
+*.lot
+*.toc
+*.so
+*.nav
+*.out
+*.snm
+*.orig
+*.o
+*.tar.gz
+*.d
+*.kdevelop.pcs
+*.kdevses
+.svn
+GP2D_chipmunk_combo
+
+syntax: regexp
+.*\#.*\#$

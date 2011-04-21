@@ -1,0 +1,8 @@
+<area shape="rect" href="$players_8h.html" title="Holds the names of the global variables used throughout all the game code." alt="" coords="5,84,85,111">
+<area shape="rect" href="$weapons_8h.html" title="Holds the names of the global variables used throughout all the game code." alt="" coords="109,84,200,111">
+<area shape="rect" href="$functions_8h.html" title="Holds the names of the global variables used throughout all the game code." alt="" coords="224,84,315,111">
+<area shape="rect" href="$settings_8h.html" title="Holds the names of the global variables used throughout all the game code." alt="" coords="339,84,421,111">
+<area shape="rect" href="$iteam__maths_8h.html" title="Holds the names of the global variables used throughout all the game code." alt="" coords="445,84,563,111">
+<area shape="rect" title="settings class" alt="" coords="251,161,320,188">
+<area shape="rect" title="settings class" alt="" coords="344,161,437,188">
+<area shape="rect" title="Mathematical functions." alt="" coords="473,161,535,188">

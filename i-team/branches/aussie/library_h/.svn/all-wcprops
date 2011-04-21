@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/i-team/!svn/ver/35/branches/aussie/library_h
+END
+collision.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/i-team/!svn/ver/35/branches/aussie/library_h/collision.h
+END
+gp2d.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/i-team/!svn/ver/35/branches/aussie/library_h/gp2d.h
+END
+spritesheet.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/i-team/!svn/ver/35/branches/aussie/library_h/spritesheet.h
+END
+3dmath.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/i-team/!svn/ver/35/branches/aussie/library_h/3dmath.h
+END
+timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/i-team/!svn/ver/35/branches/aussie/library_h/timer.h
+END
+audio.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/i-team/!svn/ver/35/branches/aussie/library_h/audio.h
+END
+freetype.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/i-team/!svn/ver/35/branches/aussie/library_h/freetype.h
+END
+sprite.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/i-team/!svn/ver/35/branches/aussie/library_h/sprite.h
+END
+camera.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/i-team/!svn/ver/35/branches/aussie/library_h/camera.h
+END
+core.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/i-team/!svn/ver/35/branches/aussie/library_h/core.h
+END
+fps.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/i-team/!svn/ver/35/branches/aussie/library_h/fps.h
+END

@@ -1,0 +1,30 @@
+\section{Desktop/cleanstuff/i-team/trunk/settings.h File Reference}
+\label{settings_8h}\index{Desktop/cleanstuff/i-team/trunk/settings.h@{Desktop/cleanstuff/i-team/trunk/settings.h}}
+settings class 
+
+{\tt \#include $<$string.h$>$}\par
+{\tt \#include $<$SDL/SDL.h$>$}\par
+
+
+Include dependency graph for settings.h:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=132pt]{settings_8h__incl}
+\end{center}
+\end{figure}
+
+
+This graph shows which files directly or indirectly include this file:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=420pt]{settings_8h__dep__incl}
+\end{center}
+\end{figure}
+
+
+\subsection{Detailed Description}
+settings class 
+
+Used to store game settings like language and key configuration. Contains methods for loading and saving the settings. On GNU/Linux, settings will be saved to $\sim$/.i-team/settings.txt On Windows, settings will be saved to ./userdata/settings.txt 

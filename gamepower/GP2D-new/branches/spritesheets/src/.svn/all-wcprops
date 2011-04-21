@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/spritesheets/src
+END
+input.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/spritesheets/src/input.cpp
+END
+graphics.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/spritesheets/src/graphics.cpp
+END
+collision.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/spritesheets/src/collision.h
+END
+gp2d.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/spritesheets/src/gp2d.h
+END
+input.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/spritesheets/src/input.h
+END
+graphics.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/spritesheets/src/graphics.h
+END
+framerate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/spritesheets/src/framerate.cpp
+END
+framerate.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/spritesheets/src/framerate.h
+END
+text.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/spritesheets/src/text.cpp
+END
+gui.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/spritesheets/src/gui.cpp
+END
+core.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/spritesheets/src/core.cpp
+END
+text.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/spritesheets/src/text.h
+END
+gui.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/spritesheets/src/gui.h
+END
+collision.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/spritesheets/src/collision.cpp
+END
+core.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/spritesheets/src/core.h
+END

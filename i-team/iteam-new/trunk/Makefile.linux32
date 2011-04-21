@@ -1,0 +1,90 @@
+CC=g++ -g
+
+#-----------------------------------------------------------------------------
+# CFLAGS: Used for compiling. Includes the -I flag to add a pointer to the
+# necessary header files, and includes the -L flag to point to the generated
+# libgp2d.so shared object file.
+#-----------------------------------------------------------------------------
+CFLAGS= -fPIC \
+        -I. \
+        -I/usr/include/ \
+        -I$(GP2DINCDIR) \
+        `sdl-config --cflags` \
+        -Wall -O2
+
+#-----------------------------------------------------------------------------
+# LDFLAGS: Used for the linker. These libraries also include the libgp2d.so
+# file, which is expected in the ../bin/ directory (a result of the build of
+# the GP2D framework.
+#-----------------------------------------------------------------------------
+LDFLAGS=`sdl-config --libs` \
+        -lSDL \
+        -lSDLmain \
+        -lSDL_net \
+        -lSDL_mixer \
+        -lSDL_image \
+        -lSDL_ttf \
+        -lGL \
+        -lGLU \
+        -lgp2d
+
+#-----------------------------------------------------------------------------
+# A few variables:
+# 	BIN: the location where the binaries (*.o and executables) need to be
+#	SRC: the source directory of the test.cpp's.
+#-----------------------------------------------------------------------------
+BINARY=iteam
+BIN=./bin
+SRC=./src
+
+#-----------------------------------------------------------------------------
+# The list of 'object' targets to generate.
+#-----------------------------------------------------------------------------
+OBJECTS_MAIN=${BIN}/main.o ${BIN}/engine.o ${BIN}/input.o ${BIN}/statemachine.o ${BIN}/intro.o ${BIN}/menu.o
+
+#-----------------------------------------------------------------------------
+# Target `all':
+#	Builds the test files to objects, to executables.
+#-----------------------------------------------------------------------------
+.PHONY: all
+all: init $(OBJECTS_MAIN)
+	$(CC) $(CFLAGS) -o $(BIN)/$(BINARY) $(OBJECTS_MAIN) $(LDFLAGS)
+
+#-----------------------------------------------------------------------------
+# Target `init':
+#	Does pre-initialization before building anything, in this case creating a
+#	directory to hold the binaries.
+#-----------------------------------------------------------------------------
+.PHONY: init
+init:
+	@mkdir -p $(BIN)
+
+#-----------------------------------------------------------------------------
+# Target `clean':
+#	Cleans the generated object files by deleting the 'bin' dir.
+#-----------------------------------------------------------------------------
+.PHONY: clean
+clean:
+	rm -rf ./bin
+
+#-----------------------------------------------------------------------------
+# Target for the objects:
+#	Compiles the object files out of the source files.
+#-----------------------------------------------------------------------------
+$(BIN)/main.o: $(SRC)/main.cpp
+	$(CC) $(CFLAGS) -c $(SRC)/main.cpp -o $(BIN)/main.o
+
+$(BIN)/engine.o: $(SRC)/engine.cpp
+	$(CC) $(CFLAGS) -c $(SRC)/engine.cpp -o $(BIN)/engine.o
+
+$(BIN)/input.o: $(SRC)/input.cpp
+	$(CC) $(CFLAGS) -c $(SRC)/input.cpp -o $(BIN)/input.o
+
+$(BIN)/statemachine.o: $(SRC)/statemachine.cpp
+	$(CC) $(CFLAGS) -c $(SRC)/statemachine.cpp -o $(BIN)/statemachine.o
+
+$(BIN)/intro.o: $(SRC)/intro.cpp
+	$(CC) $(CFLAGS) -c $(SRC)/intro.cpp -o $(BIN)/intro.o
+
+$(BIN)/menu.o: $(SRC)/menu.cpp
+	$(CC) $(CFLAGS) -c $(SRC)/menu.cpp -o $(BIN)/menu.o

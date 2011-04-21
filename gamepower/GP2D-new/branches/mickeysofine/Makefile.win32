@@ -1,0 +1,40 @@
+CC=g++
+CFLAGS= -I. \
+        -Wall
+            
+LDFLAGS=`sdl-config --libs` \
+		-lSDL_image \
+		-lopengl32 \
+		-lglu32 \
+		-lglut32
+            
+
+BINARY_SO=libgp2d.dll
+BINARY_EXEC=gp2dtest.exe
+
+SRC=./src
+BIN=./bin
+
+init:
+	@echo
+	@echo "Initializing..."
+	@echo "====================================================================="
+	mkdir -p $(BIN)
+
+all: init compile
+	@echo
+	@echo "Linking..."
+	@echo "====================================================================="
+	$(CC) $(BIN)/test.o $(BIN)/core.o $(BIN)/input.o $(BIN)/graphics.o  $(LDFLAGS) -o $(BIN)/$(BINARY_EXEC) 
+	
+compile:
+	@echo
+	@echo "Compiling..."
+	@echo "====================================================================="
+	$(CC) $(CFLAGS) -c $(SRC)/test.cpp -o $(BIN)/test.o
+	$(CC) $(CFLAGS) -c $(SRC)/core.cpp -o $(BIN)/core.o
+	$(CC) $(CFLAGS) -c $(SRC)/input.cpp -o $(BIN)/input.o
+	$(CC) $(CFLAGS) -c $(SRC)/graphics.cpp -o $(BIN)/graphics.o
+
+clean:
+	rm -rf ./bin

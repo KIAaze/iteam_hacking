@@ -1,0 +1,15 @@
+CC = gcc
+CFLAGS = -Wall `sdl-config --cflags`
+CXXFLAGS = -Wall `sdl-config --cflags`
+LIBS  = `sdl-config --libs` -lSDL -lSDL_mixer
+SRC = key_test.cpp
+OBJ = key_test.o
+TARGET = key_test
+
+all: $(TARGET)
+
+$(TARGET): $(OBJ)
+	$(CC) $(LIBS) -o $(TARGET) $(OBJ)
+
+clean:
+	rm -f $(TARGET) $(OBJ) core

@@ -1,0 +1,33 @@
+basicwidget.h:62:	class ProgressBar : public Widget {
+-commented out
+
+basicwidget.h:27:	class ImageButton : public Button {
+-nothing dynamic
+
+explosions.h:8:	class explosion : public gp2d::Sprite	{
+-nothing dynamic
+
+players.h:24:	class PlayerObj : public gp2d::Sprite {
+-nothing dynamic
+
+settings.h:36:class settings
+-nothing dynamic
+
+danger?:
+========
+basicwidget.h:6:	class Button : public Widget {
+-gp2d::Font *Font;
+
+basicwidget.h:53:	class SetKeyButton : public Button {
+-SDLKey	*btnkey;
+
+MUST BE CONSIDERED:
+===================
+weapons.h:73:	class weapon : public gp2d::Sprite	{
+-char* Name;
+
+weapons.h:137:	class IT_Weapon : public gp2d::Sprite	{
+-vector <weapon*> components;
+
+ADDITIONAL:
+===========

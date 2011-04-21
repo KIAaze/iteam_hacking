@@ -1,0 +1,226 @@
+\section{iteam Namespace Reference}
+\label{namespaceiteam}\index{iteam@{iteam}}
+Main namespace.  
+
+
+\subsection*{Functions}
+\begin{CompactItemize}
+\item 
+void {\bf quitOrAdvanceProgram} (void)\label{namespaceiteam_7bb0444901b9c265d69a6bb28173141c}
+
+\begin{CompactList}\small\item\em forces the main while(1) loop of the game to exit \item\end{CompactList}\item 
+void {\bf gameQuit} ()\label{namespaceiteam_b28f1fdb3c6c7bebd0e427d612c624dd}
+
+\begin{CompactList}\small\item\em gameQuit is called to release memory and close SDL safely This function is used by atexit() function \item\end{CompactList}\item 
+int {\bf Init} ()
+\begin{CompactList}\small\item\em Inits the GP2D system and sets it up for the game. \item\end{CompactList}\item 
+int {\bf Load} ()
+\begin{CompactList}\small\item\em Loads fonts, graphics, sounds, players, backgrounds, etc and sets them up on the scene (this should change). \item\end{CompactList}\item 
+void {\bf DrawBackground} ()\label{namespaceiteam_34827c732fba7203ecb8225d132070f9}
+
+\begin{CompactList}\small\item\em Draws the background layers. \item\end{CompactList}\item 
+void {\bf DrawTerrain} ()\label{namespaceiteam_d76338a971a09a1935cdc23ce730e46b}
+
+\begin{CompactList}\small\item\em Draws the terrain. \item\end{CompactList}\item 
+void {\bf DrawGUI} ()\label{namespaceiteam_435bcd65440f5ec4c2ef1c53b2e0e332}
+
+\begin{CompactList}\small\item\em Draws the GUI, and optionally for debugging purposes, it displays the Camera's X \& Y (this should be removed in the future). \item\end{CompactList}\item 
+void {\bf NextTurn} ()\label{namespaceiteam_9e23f9d383055dc5f46065e6fec82aa6}
+
+\begin{CompactList}\small\item\em Passes the turn to the next player. \item\end{CompactList}\item 
+bool {\bf calc\_\-velocity} (double a\_\-deg, GLfloat \&v0, GLfloat \&time, double g, double x0, double y0, double x, double y)
+\begin{CompactList}\small\item\em calculates velocity+flighttime for a given angle \item\end{CompactList}\item 
+bool {\bf calc\_\-angle} (double v0, GLfloat \&a\_\-deg1, GLfloat \&time1, GLfloat \&a\_\-deg2, GLfloat \&time2, double g, double x0, double y0, double x, double y)
+\begin{CompactList}\small\item\em calculates angle+flighttime for a given velocity \item\end{CompactList}\item 
+bool {\bf calc\_\-vector} (double time, GLfloat \&a\_\-deg, GLfloat \&v0, double g, double x0, double y0, double x, double y)
+\begin{CompactList}\small\item\em calculates velocity+angle for a given flighttime (useful for bombs) \item\end{CompactList}\item 
+void {\bf AddPlayer} (int PlayerID, GLfloat x, GLfloat y, bool Mirror2, GLfloat Scaling)
+\begin{CompactList}\small\item\em Adds a player into the game and creates its slot in the Player Vector. \item\end{CompactList}\end{CompactItemize}
+\subsection*{Variables}
+\begin{CompactItemize}
+\item 
+int {\bf GameResW}
+\item 
+int {\bf GameResH}
+\item 
+int {\bf CurPlayer}
+\item 
+int {\bf CountdownValue}
+\item 
+bool {\bf GameRunning}
+\item 
+vector$<$ iteam::PlayerObj $>$ {\bf Player}
+\item 
+gp2d::Sprite {\bf Tank\_\-base}
+\item 
+gp2d::Sprite {\bf Tank\_\-canon}
+\item 
+gp2d::Sprite {\bf AnglePointer}
+\item 
+gp2d::Sprite {\bf WeaponSelector}
+\item 
+gp2d::Camera {\bf Cam}
+\item 
+int {\bf GameResW}
+\item 
+int {\bf GameResH}
+\item 
+int {\bf CurPlayer}
+\item 
+int {\bf CountdownValue}
+\item 
+bool {\bf GameRunning}
+\item 
+gp2d::Timer {\bf iTimer}
+\item 
+int {\bf CurrentWeapon} = IT\_\-WT\_\-GRENADE
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+Main namespace. 
+
+This is where all the iteam-related functions are and will be declared, this is so it doesn't interfere with GP2D functions, variables or similar, unless explicitly stated. 
+
+\subsection{Function Documentation}
+\index{iteam@{iteam}!AddPlayer@{AddPlayer}}
+\index{AddPlayer@{AddPlayer}!iteam@{iteam}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}void iteam::AddPlayer (int {\em PlayerID}, GLfloat {\em x}, GLfloat {\em y}, bool {\em Mirror2}, GLfloat {\em Scaling})}\label{namespaceiteam_958ef1650ecaccf56b3e051ca98a9e48}
+
+
+Adds a player into the game and creates its slot in the Player Vector. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em PlayerID}]This is NOT the player's ID relative to the Player vector, but just a constant to define which player sprite is this one. For example, IT\_\-PLAYER\_\-SUSI (which is 1, as seen in \doxyref{players.h}{p.}{players_8h}). \item[{\em x}]Player's X. \item[{\em y}]Player's Y. \item[{\em Mirror2}]Which side is the player facing? you should use IT\_\-PLAYER\_\-FACE\_\-LEFT or \_\-RIGHT as seen in \doxyref{players.h}{p.}{players_8h}. \item[{\em Scaling}]Player's size (in percents). Note: This DOES NOT modify its collision internal bounding box if its defined BEFORE the player's scaling here. \end{description}
+\end{Desc}
+\index{iteam@{iteam}!calc_angle@{calc\_\-angle}}
+\index{calc_angle@{calc\_\-angle}!iteam@{iteam}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}bool iteam::calc\_\-angle (double {\em v0}, GLfloat \& {\em a\_\-deg1}, GLfloat \& {\em time1}, GLfloat \& {\em a\_\-deg2}, GLfloat \& {\em time2}, double {\em g}, double {\em x0}, double {\em y0}, double {\em x}, double {\em y})}\label{namespaceiteam_4ed13e6409facabb1d660c130e135abb}
+
+
+calculates angle+flighttime for a given velocity 
+
+returns true if shot possible, else false There are 2 possible (angle,time) pairs for a given speed works with negative speeds too \index{iteam@{iteam}!calc_vector@{calc\_\-vector}}
+\index{calc_vector@{calc\_\-vector}!iteam@{iteam}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}bool iteam::calc\_\-vector (double {\em time}, GLfloat \& {\em a\_\-deg}, GLfloat \& {\em v0}, double {\em g}, double {\em x0}, double {\em y0}, double {\em x}, double {\em y})}\label{namespaceiteam_acd1cfc7c73a7d21b0e1f710f1895cfd}
+
+
+calculates velocity+angle for a given flighttime (useful for bombs) 
+
+returns true if shot possible, else false works with negative flighttimes too because it is equivalent to -vector(v0) \index{iteam@{iteam}!calc_velocity@{calc\_\-velocity}}
+\index{calc_velocity@{calc\_\-velocity}!iteam@{iteam}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}bool iteam::calc\_\-velocity (double {\em a\_\-deg}, GLfloat \& {\em v0}, GLfloat \& {\em time}, double {\em g}, double {\em x0}, double {\em y0}, double {\em x}, double {\em y})}\label{namespaceiteam_ba471fc9580928be48a313fe90039b42}
+
+
+calculates velocity+flighttime for a given angle 
+
+returns true if shot possible, else false Can also return negative speeds when necessary. ;) Also works with negative gravity :D \index{iteam@{iteam}!Init@{Init}}
+\index{Init@{Init}!iteam@{iteam}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}int iteam::Init ()}\label{namespaceiteam_1ac9e2369a01edb836a396c5c26f137c}
+
+
+Inits the GP2D system and sets it up for the game. 
+
+This sets the screen resolution (for \doxyref{iteam}{p.}{namespaceiteam} use), some variables and starts the GP2D system. Initializes video, audio, sets the Max. FPS to 60 and sets SDL to run SDL\_\-Quit when our game ends or gets closed. \index{iteam@{iteam}!Load@{Load}}
+\index{Load@{Load}!iteam@{iteam}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}int iteam::Load ()}\label{namespaceiteam_e3ea8db4c870a297a9cd5bca9dfb7a4f}
+
+
+Loads fonts, graphics, sounds, players, backgrounds, etc and sets them up on the scene (this should change). 
+
+This function creates the camera, loads game fonts, music, sound, adds two players, loads the terrain and its background layers, it loads the GUI and a countdown sprite. It also initializes the weapon subsystem by Mike. This should change too, so \doxyref{Load()}{p.}{namespaceiteam_e3ea8db4c870a297a9cd5bca9dfb7a4f} would be used when a new game starts, and load everything up in a different way. Or maybe a preloading function when the game starts for the GUI \& fonts and other stuff wouldn't be bad, and just to load the players and terrain when a new fight comes in. 
+
+\subsection{Variable Documentation}
+\index{iteam@{iteam}!AnglePointer@{AnglePointer}}
+\index{AnglePointer@{AnglePointer}!iteam@{iteam}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}gp2d::Sprite {\bf iteam::AnglePointer}}\label{namespaceiteam_fcfb9dbf4f5796794f05567a212a7bd3}
+
+
+Used to display shooting angle. \index{iteam@{iteam}!Cam@{Cam}}
+\index{Cam@{Cam}!iteam@{iteam}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}gp2d::Camera {\bf iteam::Cam}}\label{namespaceiteam_8b2e5f425115aee9ea56605e2a39587c}
+
+
+GP2D camera. \index{iteam@{iteam}!CountdownValue@{CountdownValue}}
+\index{CountdownValue@{CountdownValue}!iteam@{iteam}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}int {\bf iteam::CountdownValue}}\label{namespaceiteam_004722c2bf5797ee51ec4979d207aff0}
+
+
+A small countdown value/flag for animating the countdown sprite. $<$-- THIS APPEARS DUPLICATED. HOW TO REMOVE?? \index{iteam@{iteam}!CountdownValue@{CountdownValue}}
+\index{CountdownValue@{CountdownValue}!iteam@{iteam}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}int {\bf iteam::CountdownValue}}\label{namespaceiteam_004722c2bf5797ee51ec4979d207aff0}
+
+
+A small countdown value/flag for animating the countdown sprite. $<$-- THIS APPEARS DUPLICATED. HOW TO REMOVE?? \index{iteam@{iteam}!CurPlayer@{CurPlayer}}
+\index{CurPlayer@{CurPlayer}!iteam@{iteam}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}int {\bf iteam::CurPlayer}}\label{namespaceiteam_04916f0cae360c557577682bcdc544c4}
+
+
+Current player's ID relative to the Player Vector. $<$-- THIS APPEARS DUPLICATED. HOW TO REMOVE?? \index{iteam@{iteam}!CurPlayer@{CurPlayer}}
+\index{CurPlayer@{CurPlayer}!iteam@{iteam}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}int {\bf iteam::CurPlayer}}\label{namespaceiteam_04916f0cae360c557577682bcdc544c4}
+
+
+Current player's ID relative to the Player Vector. $<$-- THIS APPEARS DUPLICATED. HOW TO REMOVE?? \index{iteam@{iteam}!CurrentWeapon@{CurrentWeapon}}
+\index{CurrentWeapon@{CurrentWeapon}!iteam@{iteam}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}int {\bf iteam::CurrentWeapon} = IT\_\-WT\_\-GRENADE}\label{namespaceiteam_8e3220430766bb441369c30044291408}
+
+
+Current weapon \index{iteam@{iteam}!GameResH@{GameResH}}
+\index{GameResH@{GameResH}!iteam@{iteam}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}int {\bf iteam::GameResH}}\label{namespaceiteam_26f21a7db5d9fd91ec258c12890ae492}
+
+
+Screen resolution height (in pixels). $<$-- THIS APPEARS DUPLICATED. HOW TO REMOVE?? \index{iteam@{iteam}!GameResH@{GameResH}}
+\index{GameResH@{GameResH}!iteam@{iteam}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}int {\bf iteam::GameResH}}\label{namespaceiteam_26f21a7db5d9fd91ec258c12890ae492}
+
+
+Screen resolution height (in pixels). $<$-- THIS APPEARS DUPLICATED. HOW TO REMOVE?? \index{iteam@{iteam}!GameResW@{GameResW}}
+\index{GameResW@{GameResW}!iteam@{iteam}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}int {\bf iteam::GameResW}}\label{namespaceiteam_a54c83ae93f0d0baafb427980d3c84e3}
+
+
+Screen resolution width (in pixels). $<$-- THIS APPEARS DUPLICATED. HOW TO REMOVE?? \index{iteam@{iteam}!GameResW@{GameResW}}
+\index{GameResW@{GameResW}!iteam@{iteam}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}int {\bf iteam::GameResW}}\label{namespaceiteam_a54c83ae93f0d0baafb427980d3c84e3}
+
+
+Screen resolution width (in pixels). $<$-- THIS APPEARS DUPLICATED. HOW TO REMOVE?? \index{iteam@{iteam}!GameRunning@{GameRunning}}
+\index{GameRunning@{GameRunning}!iteam@{iteam}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}bool {\bf iteam::GameRunning}}\label{namespaceiteam_8bd34e30345efd8d1b21d876a9006e14}
+
+
+Determines if the players can fight (true) or if they're waiting for the countdown to finish (false). $<$-- THIS APPEARS DUPLICATED. HOW TO REMOVE?? \index{iteam@{iteam}!GameRunning@{GameRunning}}
+\index{GameRunning@{GameRunning}!iteam@{iteam}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}bool {\bf iteam::GameRunning}}\label{namespaceiteam_8bd34e30345efd8d1b21d876a9006e14}
+
+
+Determines if the players can fight (true) or if they're waiting for the countdown to finish (false). $<$-- THIS APPEARS DUPLICATED. HOW TO REMOVE?? \index{iteam@{iteam}!iTimer@{iTimer}}
+\index{iTimer@{iTimer}!iteam@{iteam}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}gp2d::Timer {\bf iteam::iTimer}}\label{namespaceiteam_fdeed2225eecd7dcfaa77142df8a0234}
+
+
+used for Mike's weapons maybe?. \index{iteam@{iteam}!Player@{Player}}
+\index{Player@{Player}!iteam@{iteam}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}vector$<$ iteam::PlayerObj $>$ {\bf iteam::Player}}\label{namespaceiteam_d8f14ba8cae82e0a2429e8a63bf31155}
+
+
+Holds a vector of all the players on the game scene. \index{iteam@{iteam}!Tank_base@{Tank\_\-base}}
+\index{Tank_base@{Tank\_\-base}!iteam@{iteam}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}gp2d::Sprite {\bf iteam::Tank\_\-base}}\label{namespaceiteam_3d84fef6956fb1afd1c6375863f9d028}
+
+
+Tank\_\-base sprite. \index{iteam@{iteam}!Tank_canon@{Tank\_\-canon}}
+\index{Tank_canon@{Tank\_\-canon}!iteam@{iteam}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}gp2d::Sprite {\bf iteam::Tank\_\-canon}}\label{namespaceiteam_0a4bb479f1b9fd9d0a07ea960449e57e}
+
+
+Tank\_\-canon sprite. \index{iteam@{iteam}!WeaponSelector@{WeaponSelector}}
+\index{WeaponSelector@{WeaponSelector}!iteam@{iteam}}
+\subsubsection{\setlength{\rightskip}{0pt plus 5cm}gp2d::Sprite {\bf iteam::WeaponSelector}}\label{namespaceiteam_47827c8cbbda1dce7b08fb208a414371}
+
+
+Used to highlight selected weapon. 

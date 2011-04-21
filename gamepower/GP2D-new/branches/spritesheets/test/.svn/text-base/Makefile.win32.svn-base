@@ -1,0 +1,72 @@
+CC=g++ -g
+
+#-----------------------------------------------------------------------------
+# CFLAGS: Used for compiling. Flag -fPIC is specifically for compilation to
+# shared libraries.
+#-----------------------------------------------------------------------------
+CFLAGS= -I. \
+        `sdl-config --cflags` \
+        -Wall -O2 \
+        -I../src \
+        -L../bin
+
+#-----------------------------------------------------------------------------
+# LDFLAGS: Used for the linker.
+#-----------------------------------------------------------------------------
+LDFLAGS=`sdl-config --libs` \
+        -lSDL \
+        -lSDLmain \
+        -lSDL_net \
+        -lSDL_mixer \
+        -lSDL_image \
+        -lSDL_gfx \
+        -lSDL_ttf \
+		-lopengl32 \
+		-lglu32 \
+		-lglut32 \
+		-lgp2d
+
+#-----------------------------------------------------------------------------
+# A few variables:
+# 	BIN: the location where the binaries (*.o and executables) need to be
+#	SRC: the source directory of the test.cpp's.
+#-----------------------------------------------------------------------------
+BIN=./bin
+SRC=./src
+
+#-----------------------------------------------------------------------------
+# The list of 'object' targets to generate.
+#-----------------------------------------------------------------------------
+OBJECTS_MAIN=${BIN}/test.o
+
+#-----------------------------------------------------------------------------
+# Target `all':
+#	Builds the test files to objects, to executables.
+#-----------------------------------------------------------------------------
+.PHONY: all
+all: init $(OBJECTS_MAIN)
+
+#-----------------------------------------------------------------------------
+# Target `init':
+#	Does pre-initialization before building anything, in this case creating a
+#	directory to hold the binaries.
+#-----------------------------------------------------------------------------
+.PHONY: init
+init:
+	@mkdir -p $(BIN)
+
+#-----------------------------------------------------------------------------
+# Target `clean':
+#	Cleans the generated object files by deleting the 'bin' dir.
+#-----------------------------------------------------------------------------
+.PHONY: clean
+clean:
+	rm -rf ./bin
+
+#-----------------------------------------------------------------------------
+# Target for the objects:
+#	Compiles the object files out of the source files.
+#-----------------------------------------------------------------------------
+$(BIN)/test.o: $(SRC)/test.cpp
+	$(CC) $(CFLAGS) -c $(SRC)/test.cpp -o $(BIN)/test.o
+	$(CC) $(CFLAGS) $(LDFLAGS) -o $(BIN)/test $(BIN)/test.o $(LDFLAGS)

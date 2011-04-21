@@ -1,0 +1,19 @@
+#include <iostream>
+
+#include "gp2d.h"
+
+using namespace std;
+using namespace gp2d;
+
+int main()
+{
+    GP2DTCPClientSocket* socket = new GP2DTCPClientSocket();
+    socket->connect("localhost", 17000);
+    cout << socket->isConnected() << endl;
+    socket->sendString("C JOIN GP2DTCPClientSocket 0\r\n");
+    for(int i = 0 ; i < 5 ; i++) {
+        socket->sendString("C SAY test\r\n");
+    }
+    socket->close();
+    return 0;
+}

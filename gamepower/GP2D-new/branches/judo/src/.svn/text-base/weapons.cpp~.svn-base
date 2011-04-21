@@ -1,0 +1,11 @@
+/*! \file weapons.cpp
+\Weapon class and methods
+
+Base class for all weapons, should be easily extendible.
+*/
+
+#include "gp2d.h"
+
+#include "weapons.h"
+
+

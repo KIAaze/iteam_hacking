@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/gamepower/!svn/ver/399/GP2D-new/branches/ldark/src
+END
+input.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/gamepower/!svn/ver/399/GP2D-new/branches/ldark/src/input.cpp
+END
+graphics.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/gamepower/!svn/ver/399/GP2D-new/branches/ldark/src/graphics.cpp
+END
+collision.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/gamepower/!svn/ver/399/GP2D-new/branches/ldark/src/collision.h
+END
+gp2d.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/gamepower/!svn/ver/399/GP2D-new/branches/ldark/src/gp2d.h
+END
+audio.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/gamepower/!svn/ver/399/GP2D-new/branches/ldark/src/audio.cpp
+END
+input.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/gamepower/!svn/ver/399/GP2D-new/branches/ldark/src/input.h
+END
+graphics.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/gamepower/!svn/ver/399/GP2D-new/branches/ldark/src/graphics.h
+END
+framerate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/gamepower/!svn/ver/399/GP2D-new/branches/ldark/src/framerate.cpp
+END
+audio.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/gamepower/!svn/ver/399/GP2D-new/branches/ldark/src/audio.h
+END
+framerate.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/gamepower/!svn/ver/399/GP2D-new/branches/ldark/src/framerate.h
+END
+timer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/gamepower/!svn/ver/399/GP2D-new/branches/ldark/src/timer.cpp
+END
+text.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/gamepower/!svn/ver/399/GP2D-new/branches/ldark/src/text.cpp
+END
+gui.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/gamepower/!svn/ver/399/GP2D-new/branches/ldark/src/gui.cpp
+END
+timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/gamepower/!svn/ver/399/GP2D-new/branches/ldark/src/timer.h
+END
+core.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/gamepower/!svn/ver/399/GP2D-new/branches/ldark/src/core.cpp
+END
+gui.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/gamepower/!svn/ver/399/GP2D-new/branches/ldark/src/gui.h
+END
+text.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/gamepower/!svn/ver/399/GP2D-new/branches/ldark/src/text.h
+END
+collision.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/gamepower/!svn/ver/399/GP2D-new/branches/ldark/src/collision.cpp
+END
+core.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/gamepower/!svn/ver/399/GP2D-new/branches/ldark/src/core.h
+END

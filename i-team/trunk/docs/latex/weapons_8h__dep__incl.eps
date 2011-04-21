@@ -1,0 +1,1006 @@
+%!PS-Adobe-2.0
+%%Creator: Graphviz version 2.12 (Tue Sep  4 16:56:48 UTC 2007)
+%%For: (mike) mike,,,
+%%Title: G
+%%Pages: (atend)
+%%BoundingBox: (atend)
+%%EndComments
+save
+%%BeginProlog
+/DotDict 200 dict def
+DotDict begin
+
+/setupLatin1 {
+mark
+/EncodingVector 256 array def
+ EncodingVector 0
+
+ISOLatin1Encoding 0 255 getinterval putinterval
+EncodingVector 45 /hyphen put
+
+% Set up ISO Latin 1 character encoding
+/starnetISO {
+        dup dup findfont dup length dict begin
+        { 1 index /FID ne { def }{ pop pop } ifelse
+        } forall
+        /Encoding EncodingVector def
+        currentdict end definefont
+} def
+/Times-Roman starnetISO def
+/Times-Italic starnetISO def
+/Times-Bold starnetISO def
+/Times-BoldItalic starnetISO def
+/Helvetica starnetISO def
+/Helvetica-Oblique starnetISO def
+/Helvetica-Bold starnetISO def
+/Helvetica-BoldOblique starnetISO def
+/Courier starnetISO def
+/Courier-Oblique starnetISO def
+/Courier-Bold starnetISO def
+/Courier-BoldOblique starnetISO def
+cleartomark
+} bind def
+
+%%BeginResource: procset graphviz 0 0
+/coord-font-family /Times-Roman def
+/default-font-family /Times-Roman def
+/coordfont coord-font-family findfont 8 scalefont def
+
+/InvScaleFactor 1.0 def
+/set_scale {
+       dup 1 exch div /InvScaleFactor exch def
+       scale
+} bind def
+
+% styles
+/solid { [] 0 setdash } bind def
+/dashed { [9 InvScaleFactor mul dup ] 0 setdash } bind def
+/dotted { [1 InvScaleFactor mul 6 InvScaleFactor mul] 0 setdash } bind def
+/invis {/fill {newpath} def /stroke {newpath} def /show {pop newpath} def} bind def
+/bold { 2 setlinewidth } bind def
+/filled { } bind def
+/unfilled { } bind def
+/rounded { } bind def
+/diagonals { } bind def
+
+% hooks for setting color 
+/nodecolor { sethsbcolor } bind def
+/edgecolor { sethsbcolor } bind def
+/graphcolor { sethsbcolor } bind def
+/nopcolor {pop pop pop} bind def
+
+/beginpage {	% i j npages
+	/npages exch def
+	/j exch def
+	/i exch def
+	/str 10 string def
+	npages 1 gt {
+		gsave
+			coordfont setfont
+			0 0 moveto
+			(\() show i str cvs show (,) show j str cvs show (\)) show
+		grestore
+	} if
+} bind def
+
+/set_font {
+	findfont exch
+	scalefont setfont
+} def
+
+% draw aligned label in bounding box aligned to current point
+/alignedtext {			% width adj text
+	/text exch def
+	/adj exch def
+	/width exch def
+	gsave
+		width 0 gt {
+			text stringwidth pop adj mul 0 rmoveto
+		} if
+		[] 0 setdash
+		text show
+	grestore
+} def
+
+/boxprim {				% xcorner ycorner xsize ysize
+		4 2 roll
+		moveto
+		2 copy
+		exch 0 rlineto
+		0 exch rlineto
+		pop neg 0 rlineto
+		closepath
+} bind def
+
+/ellipse_path {
+	/ry exch def
+	/rx exch def
+	/y exch def
+	/x exch def
+	matrix currentmatrix
+	newpath
+	x y translate
+	rx ry scale
+	0 0 1 0 360 arc
+	setmatrix
+} bind def
+
+/endpage { showpage } bind def
+/showpage { } def
+
+/layercolorseq
+	[	% layer color sequence - darkest to lightest
+		[0 0 0]
+		[.2 .8 .8]
+		[.4 .8 .8]
+		[.6 .8 .8]
+		[.8 .8 .8]
+	]
+def
+
+/layerlen layercolorseq length def
+
+/setlayer {/maxlayer exch def /curlayer exch def
+	layercolorseq curlayer 1 sub layerlen mod get
+	aload pop sethsbcolor
+	/nodecolor {nopcolor} def
+	/edgecolor {nopcolor} def
+	/graphcolor {nopcolor} def
+} bind def
+
+/onlayer { curlayer ne {invis} if } def
+
+/onlayers {
+	/myupper exch def
+	/mylower exch def
+	curlayer mylower lt
+	curlayer myupper gt
+	or
+	{invis} if
+} def
+
+/curlayer 0 def
+
+%%EndResource
+%%EndProlog
+%%BeginSetup
+14 default-font-family set_font
+1 setmiterlimit
+% /arrowlength 10 def
+% /arrowwidth 5 def
+
+% make sure pdfmark is harmless for PS-interpreters other than Distiller
+/pdfmark where {pop} {userdict /pdfmark /cleartomark load put} ifelse
+% make '<<' and '>>' safe on PS Level 1 devices
+/languagelevel where {pop languagelevel}{1} ifelse
+2 lt {
+    userdict (<<) cvn ([) cvn load put
+    userdict (>>) cvn ([) cvn load put
+} if
+
+%%EndSetup
+setupLatin1
+%%Page: 1 1
+%%PageBoundingBox: 36 36 1496 240
+%%PageOrientation: Portrait
+gsave
+36 36 1496 240 boxprim clip newpath
+0 0 1 beginpage
+1 1 set_scale 0 rotate 40 40 translate
+0.000 0.000 1.000 graphcolor
+newpath -4 -4 moveto
+-4 200 lineto
+1456 200 lineto
+1456 -4 lineto
+closepath fill
+1 setlinewidth
+0.000 0.000 1.000 graphcolor
+newpath -4 -4 moveto
+-4 200 lineto
+1456 200 lineto
+1456 -4 lineto
+closepath stroke
+% Node1
+gsave
+0.000 0.000 0.749 nodecolor
+newpath 699 174 moveto
+699 195 lineto
+924 195 lineto
+924 174 lineto
+closepath fill
+1 setlinewidth
+filled
+0.000 0.000 0.000 nodecolor
+newpath 699 174 moveto
+699 195 lineto
+924 195 lineto
+924 174 lineto
+closepath stroke
+0.000 0.000 0.000 nodecolor
+10.00 /FreeSans.ttf set_font
+811 181 moveto 209 -0.5 (Desktop/cleanstuff/i-team/trunk/weapons.h) alignedtext
+grestore
+% Node2
+gsave
+[ /Rect [ 704 117 918 137 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($globals_8h.html) >>
+  /Subtype /Link
+/ANN pdfmark
+[ /Rect [ 704 117 918 137 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($globals_8h.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.000 0.000 1.000 nodecolor
+newpath 704 116 moveto
+704 137 lineto
+919 137 lineto
+919 116 lineto
+closepath fill
+1 setlinewidth
+filled
+0.000 0.000 0.000 nodecolor
+newpath 704 116 moveto
+704 137 lineto
+919 137 lineto
+919 116 lineto
+closepath stroke
+0.000 0.000 0.000 nodecolor
+10.00 /FreeSans.ttf set_font
+811 123 moveto 199 -0.5 (Desktop/cleanstuff/i-team/trunk/globals.h) alignedtext
+grestore
+% Node1->Node2
+gsave
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 805 164 moveto
+804 154 805 144 806 137 curveto
+stroke
+0.667 0.776 0.439 edgecolor
+newpath 801.522 164.398 moveto
+806 174 lineto
+808.488 163.701 lineto
+closepath fill
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 801.522 164.398 moveto
+806 174 lineto
+808.488 163.701 lineto
+closepath stroke
+grestore
+% Node4
+gsave
+[ /Rect [ 0 1 236 21 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($functions_8cpp.html) >>
+  /Subtype /Link
+/ANN pdfmark
+[ /Rect [ 0 1 236 21 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($functions_8cpp.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.000 0.000 1.000 nodecolor
+newpath 0 0 moveto
+0 21 lineto
+237 21 lineto
+237 0 lineto
+closepath fill
+1 setlinewidth
+filled
+0.000 0.000 0.000 nodecolor
+newpath 0 0 moveto
+0 21 lineto
+237 21 lineto
+237 0 lineto
+closepath stroke
+0.000 0.000 0.000 nodecolor
+10.00 /FreeSans.ttf set_font
+118 7 moveto 221 -0.5 (Desktop/cleanstuff/i-team/trunk/functions.cpp) alignedtext
+grestore
+% Node1->Node4
+gsave
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 689 175 moveto
+588 166 454 153 401 138 curveto
+296 109 179 46 136 21 curveto
+stroke
+0.667 0.776 0.439 edgecolor
+newpath 688.701 178.488 moveto
+699 176 lineto
+689.398 171.522 lineto
+closepath fill
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 688.701 178.488 moveto
+699 176 lineto
+689.398 171.522 lineto
+closepath stroke
+grestore
+% Node5
+gsave
+[ /Rect [ 254 1 486 21 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($iteam-ai_8cpp.html) >>
+  /Subtype /Link
+/ANN pdfmark
+[ /Rect [ 254 1 486 21 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($iteam-ai_8cpp.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.000 0.000 1.000 nodecolor
+newpath 254 0 moveto
+254 21 lineto
+487 21 lineto
+487 0 lineto
+closepath fill
+1 setlinewidth
+filled
+0.000 0.000 0.000 nodecolor
+newpath 254 0 moveto
+254 21 lineto
+487 21 lineto
+487 0 lineto
+closepath stroke
+0.000 0.000 0.000 nodecolor
+10.00 /FreeSans.ttf set_font
+370 7 moveto 217 -0.5 (Desktop/cleanstuff/i-team/trunk/iteam-ai.cpp) alignedtext
+grestore
+% Node1->Node5
+gsave
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 689 175 moveto
+565 161 386 133 343 80 curveto
+329 62 348 36 360 21 curveto
+stroke
+0.667 0.776 0.439 edgecolor
+newpath 688.701 178.488 moveto
+699 176 lineto
+689.398 171.522 lineto
+closepath fill
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 688.701 178.488 moveto
+699 176 lineto
+689.398 171.522 lineto
+closepath stroke
+grestore
+% Node7
+gsave
+[ /Rect [ 778 1 1006 21 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($players_8cpp.html) >>
+  /Subtype /Link
+/ANN pdfmark
+[ /Rect [ 778 1 1006 21 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($players_8cpp.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.000 0.000 1.000 nodecolor
+newpath 778 0 moveto
+778 21 lineto
+1006 21 lineto
+1006 0 lineto
+closepath fill
+1 setlinewidth
+filled
+0.000 0.000 0.000 nodecolor
+newpath 778 0 moveto
+778 21 lineto
+1006 21 lineto
+1006 0 lineto
+closepath stroke
+0.000 0.000 0.000 nodecolor
+10.00 /FreeSans.ttf set_font
+892 7 moveto 212 -0.5 (Desktop/cleanstuff/i-team/trunk/players.cpp) alignedtext
+grestore
+% Node1->Node7
+gsave
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 931 173 moveto
+1103 155 1400 117 1432 80 curveto
+1438 72 1438 65 1432 58 curveto
+1431 57 1164 34 1006 21 curveto
+stroke
+0.667 0.776 0.439 edgecolor
+newpath 930.602 169.522 moveto
+921 174 lineto
+931.299 176.488 lineto
+closepath fill
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 930.602 169.522 moveto
+921 174 lineto
+931.299 176.488 lineto
+closepath stroke
+grestore
+% Node8
+gsave
+[ /Rect [ 1032 1 1268 21 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($weapons_8cpp.html) >>
+  /Subtype /Link
+/ANN pdfmark
+[ /Rect [ 1032 1 1268 21 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($weapons_8cpp.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.000 0.000 1.000 nodecolor
+newpath 1032 0 moveto
+1032 21 lineto
+1268 21 lineto
+1268 0 lineto
+closepath fill
+1 setlinewidth
+filled
+0.000 0.000 0.000 nodecolor
+newpath 1032 0 moveto
+1032 21 lineto
+1268 21 lineto
+1268 0 lineto
+closepath stroke
+0.000 0.000 0.000 nodecolor
+10.00 /FreeSans.ttf set_font
+1150 7 moveto 220 -0.5 (Desktop/cleanstuff/i-team/trunk/weapons.cpp) alignedtext
+grestore
+% Node1->Node8
+gsave
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 934 179 moveto
+1027 173 1157 161 1270 138 curveto
+1350 120 1397 146 1446 80 curveto
+1451 72 1452 65 1446 58 curveto
+1433 43 1336 30 1257 21 curveto
+stroke
+0.667 0.776 0.439 edgecolor
+newpath 933.602 175.522 moveto
+924 180 lineto
+934.299 182.488 lineto
+closepath fill
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 933.602 175.522 moveto
+924 180 lineto
+934.299 182.488 lineto
+closepath stroke
+grestore
+% Node9
+gsave
+[ /Rect [ 1195 59 1423 79 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($physics_8cpp.html) >>
+  /Subtype /Link
+/ANN pdfmark
+[ /Rect [ 1195 59 1423 79 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($physics_8cpp.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.000 0.000 1.000 nodecolor
+newpath 1195 58 moveto
+1195 79 lineto
+1423 79 lineto
+1423 58 lineto
+closepath fill
+1 setlinewidth
+filled
+0.000 0.000 0.000 nodecolor
+newpath 1195 58 moveto
+1195 79 lineto
+1423 79 lineto
+1423 58 lineto
+closepath stroke
+0.000 0.000 0.000 nodecolor
+10.00 /FreeSans.ttf set_font
+1309 65 moveto 212 -0.5 (Desktop/cleanstuff/i-team/trunk/physics.cpp) alignedtext
+grestore
+% Node1->Node9
+gsave
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 868 172 moveto
+969 148 1176 100 1266 79 curveto
+stroke
+0.667 0.776 0.439 edgecolor
+newpath 867.119 168.607 moveto
+858 174 lineto
+868.492 175.471 lineto
+closepath fill
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 867.119 168.607 moveto
+858 174 lineto
+868.492 175.471 lineto
+closepath stroke
+grestore
+% Node2->Node1
+gsave
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 817 147 moveto
+818 156 817 166 816 174 curveto
+stroke
+0.667 0.776 0.439 edgecolor
+newpath 820.478 146.602 moveto
+816 137 lineto
+813.512 147.299 lineto
+closepath fill
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 820.478 146.602 moveto
+816 137 lineto
+813.512 147.299 lineto
+closepath stroke
+grestore
+% Node3
+gsave
+[ /Rect [ 361 59 607 79 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($iteam__maths_8h.html) >>
+  /Subtype /Link
+/ANN pdfmark
+[ /Rect [ 361 59 607 79 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($iteam__maths_8h.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.000 0.000 1.000 nodecolor
+newpath 361 58 moveto
+361 79 lineto
+607 79 lineto
+607 58 lineto
+closepath fill
+1 setlinewidth
+filled
+0.000 0.000 0.000 nodecolor
+newpath 361 58 moveto
+361 79 lineto
+607 79 lineto
+607 58 lineto
+closepath stroke
+0.000 0.000 0.000 nodecolor
+10.00 /FreeSans.ttf set_font
+484 65 moveto 230 -0.5 (Desktop/cleanstuff/i-team/trunk/iteam_maths.h) alignedtext
+grestore
+% Node2->Node3
+gsave
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 733 114 moveto
+673 103 589 88 536 79 curveto
+stroke
+0.667 0.776 0.439 edgecolor
+newpath 732.508 117.471 moveto
+743 116 lineto
+733.881 110.607 lineto
+closepath fill
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 732.508 117.471 moveto
+743 116 lineto
+733.881 110.607 lineto
+closepath stroke
+grestore
+% Node2->Node4
+gsave
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 694 121 moveto
+598 115 461 103 343 80 curveto
+270 65 187 36 145 21 curveto
+stroke
+0.667 0.776 0.439 edgecolor
+newpath 693.701 124.488 moveto
+704 122 lineto
+694.398 117.522 lineto
+closepath fill
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 693.701 124.488 moveto
+704 122 lineto
+694.398 117.522 lineto
+closepath stroke
+grestore
+% Node2->Node5
+gsave
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 694 123 moveto
+566 117 375 105 352 80 curveto
+337 63 352 36 362 21 curveto
+stroke
+0.667 0.776 0.439 edgecolor
+newpath 694 126.5 moveto
+704 123 lineto
+694 119.5 lineto
+closepath fill
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 694 126.5 moveto
+704 123 lineto
+694 119.5 lineto
+closepath stroke
+grestore
+% Node2->Node7
+gsave
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 835 110 moveto
+845 101 856 91 864 80 curveto
+877 61 885 35 889 21 curveto
+stroke
+0.667 0.776 0.439 edgecolor
+newpath 832.9 107.2 moveto
+827 116 lineto
+837.1 112.8 lineto
+closepath fill
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 832.9 107.2 moveto
+827 116 lineto
+837.1 112.8 lineto
+closepath stroke
+grestore
+% Node2->Node8
+gsave
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 929 118 moveto
+1021 110 1133 96 1148 80 curveto
+1162 64 1157 36 1153 21 curveto
+stroke
+0.667 0.776 0.439 edgecolor
+newpath 928.602 114.522 moveto
+919 119 lineto
+929.299 121.488 lineto
+closepath fill
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 928.602 114.522 moveto
+919 119 lineto
+929.299 121.488 lineto
+closepath stroke
+grestore
+% Node2->Node9
+gsave
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 916 115 moveto
+1007 104 1137 89 1223 79 curveto
+stroke
+0.667 0.776 0.439 edgecolor
+newpath 915.602 111.522 moveto
+906 116 lineto
+916.299 118.488 lineto
+closepath fill
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 915.602 111.522 moveto
+906 116 lineto
+916.299 118.488 lineto
+closepath stroke
+grestore
+% Node10
+gsave
+[ /Rect [ 911 59 1139 79 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($primitives_8h.html) >>
+  /Subtype /Link
+/ANN pdfmark
+[ /Rect [ 911 59 1139 79 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($primitives_8h.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.000 0.000 1.000 nodecolor
+newpath 911 58 moveto
+911 79 lineto
+1140 79 lineto
+1140 58 lineto
+closepath fill
+1 setlinewidth
+filled
+0.000 0.000 0.000 nodecolor
+newpath 911 58 moveto
+911 79 lineto
+1140 79 lineto
+1140 58 lineto
+closepath stroke
+0.000 0.000 0.000 nodecolor
+10.00 /FreeSans.ttf set_font
+1025 65 moveto 213 -0.5 (Desktop/cleanstuff/i-team/trunk/primitives.h) alignedtext
+grestore
+% Node2->Node10
+gsave
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 862 113 moveto
+901 102 953 88 988 79 curveto
+stroke
+0.667 0.776 0.439 edgecolor
+newpath 860.573 109.774 moveto
+852 116 lineto
+862.584 116.479 lineto
+closepath fill
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 860.573 109.774 moveto
+852 116 lineto
+862.584 116.479 lineto
+closepath stroke
+grestore
+% Node11
+gsave
+[ /Rect [ 625 59 855 79 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($settings_8cpp.html) >>
+  /Subtype /Link
+/ANN pdfmark
+[ /Rect [ 625 59 855 79 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($settings_8cpp.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.000 0.000 1.000 nodecolor
+newpath 625 58 moveto
+625 79 lineto
+856 79 lineto
+856 58 lineto
+closepath fill
+1 setlinewidth
+filled
+0.000 0.000 0.000 nodecolor
+newpath 625 58 moveto
+625 79 lineto
+856 79 lineto
+856 58 lineto
+closepath stroke
+0.000 0.000 0.000 nodecolor
+10.00 /FreeSans.ttf set_font
+740 65 moveto 215 -0.5 (Desktop/cleanstuff/i-team/trunk/settings.cpp) alignedtext
+grestore
+% Node2->Node11
+gsave
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 789 109 moveto
+777 99 763 87 752 79 curveto
+stroke
+0.667 0.776 0.439 edgecolor
+newpath 787.169 112.049 moveto
+797 116 lineto
+791.779 106.781 lineto
+closepath fill
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 787.169 112.049 moveto
+797 116 lineto
+791.779 106.781 lineto
+closepath stroke
+grestore
+% Node3->Node2
+gsave
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 556 81 moveto
+616 91 699 106 754 116 curveto
+stroke
+0.667 0.776 0.439 edgecolor
+newpath 556.492 77.5292 moveto
+546 79 lineto
+555.119 84.3933 lineto
+closepath fill
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 556.492 77.5292 moveto
+546 79 lineto
+555.119 84.3933 lineto
+closepath stroke
+grestore
+% Node3->Node4
+gsave
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 404 56 moveto
+337 45 243 31 181 21 curveto
+stroke
+0.667 0.776 0.439 edgecolor
+newpath 403.508 59.4708 moveto
+414 58 lineto
+404.881 52.6067 lineto
+closepath fill
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 403.508 59.4708 moveto
+414 58 lineto
+404.881 52.6067 lineto
+closepath stroke
+grestore
+% Node3->Node5
+gsave
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 453 53 moveto
+433 43 407 30 390 21 curveto
+stroke
+0.667 0.776 0.439 edgecolor
+newpath 451.559 56.2031 moveto
+462 58 lineto
+454.958 50.084 lineto
+closepath fill
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 451.559 56.2031 moveto
+462 58 lineto
+454.958 50.084 lineto
+closepath stroke
+grestore
+% Node6
+gsave
+[ /Rect [ 504 1 760 21 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($iteam__maths_8cpp.html) >>
+  /Subtype /Link
+/ANN pdfmark
+[ /Rect [ 504 1 760 21 ]
+  /Border [ 0 0 0 ]
+  /Action << /Subtype /URI /URI ($iteam__maths_8cpp.html) >>
+  /Subtype /Link
+/ANN pdfmark
+0.000 0.000 1.000 nodecolor
+newpath 504 0 moveto
+504 21 lineto
+761 21 lineto
+761 0 lineto
+closepath fill
+1 setlinewidth
+filled
+0.000 0.000 0.000 nodecolor
+newpath 504 0 moveto
+504 21 lineto
+761 21 lineto
+761 0 lineto
+closepath stroke
+0.000 0.000 0.000 nodecolor
+10.00 /FreeSans.ttf set_font
+632 7 moveto 241 -0.5 (Desktop/cleanstuff/i-team/trunk/iteam_maths.cpp) alignedtext
+grestore
+% Node3->Node6
+gsave
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 521 54 moveto
+548 44 583 30 606 21 curveto
+stroke
+0.667 0.776 0.439 edgecolor
+newpath 519.717 50.7402 moveto
+512 58 lineto
+522.56 57.1369 lineto
+closepath fill
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 519.717 50.7402 moveto
+512 58 lineto
+522.56 57.1369 lineto
+closepath stroke
+grestore
+% Node3->Node7
+gsave
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 572 56 moveto
+647 46 752 31 821 21 curveto
+stroke
+0.667 0.776 0.439 edgecolor
+newpath 571.119 52.6067 moveto
+562 58 lineto
+572.492 59.4708 lineto
+closepath fill
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 571.119 52.6067 moveto
+562 58 lineto
+572.492 59.4708 lineto
+closepath stroke
+grestore
+% Node3->Node8
+gsave
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 617 57 moveto
+739 46 917 31 1034 21 curveto
+stroke
+0.667 0.776 0.439 edgecolor
+newpath 616.602 53.5222 moveto
+607 58 lineto
+617.299 60.4875 lineto
+closepath fill
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 616.602 53.5222 moveto
+607 58 lineto
+617.299 60.4875 lineto
+closepath stroke
+grestore
+% Node10->Node8
+gsave
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 1058 54 moveto
+1080 43 1109 30 1128 21 curveto
+stroke
+0.667 0.776 0.439 edgecolor
+newpath 1056.72 50.7402 moveto
+1049 58 lineto
+1059.56 57.1369 lineto
+closepath fill
+1 setlinewidth
+solid
+0.667 0.776 0.439 edgecolor
+newpath 1056.72 50.7402 moveto
+1049 58 lineto
+1059.56 57.1369 lineto
+closepath stroke
+grestore
+endpage
+showpage
+grestore
+%%PageTrailer
+%%EndPage: 1
+%%Trailer
+%%Pages: 1
+%%BoundingBox: 36 36 1496 240
+end
+restore
+%%EOF

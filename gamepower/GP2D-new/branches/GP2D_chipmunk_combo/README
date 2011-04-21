@@ -1,0 +1,11 @@
+To test it:
+make all_plus_libs
+
+(requires that you have checked out GP2D-new/trunk following the svn file hierarchy (i.e. full checkout of 
+gamepower))
+
+Once the libraries are built:
+make
+or
+make all
+

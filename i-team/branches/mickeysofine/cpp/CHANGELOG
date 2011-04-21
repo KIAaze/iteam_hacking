@@ -1,0 +1,53 @@
+# SYNTAX IS:
+# Date (dd/mmm/yy)
+# - Modification made. (author)
+
+27 August 07
+- Changed Makefile to add SDL_gfx. (DARKGuy)
+
+23 August 07
+- Added 4-5 new sound files for playing when the turn counter ticks. (DARKGuy)
+- Modified the code accordingly to the new GP2D sound system. Music and Sound now work. (DARKGuy)
+- Fixed the countdown timer. It now swaps the turn between players 1 and 2. (DARKGuy)
+- Gave a special effect to the "Start!" text after the beginning of the match. (DARKGuy)
+
+22 August 07
+- Added Jorge's new countdown images. (DARKGuy)
+- Added a timer on the top-right corner of the screen. (DARKGuy)
+- Changed the default egypt level for a great, 3D grassy one by Jorge :). (DARKGuy)
+- Adapted the code to the recent changes on GP2D. (DARKGuy)
+
+20 August 07
+- Changed the way resources are loaded. They're vectors instead of variables, which makes loading stuff much easier so we don't have Layer1, Layer2, Layer3 but just an array (ex. Layer[0-3]). It applies to sprites, sounds, fonts, timers and players. (DARKGuy)
+- Added some sounds and changed path of jump.wav to data/sound/characters/jump.wav. (DARKGuy)
+- Minor change to mainmenu.cpp. (DARKGuy)
+
+18 August 07
+- Added mainmenu.cpp/mainmenu.h. (DARKGuy)
+- Simplified the header loading by including them all in globals.h. Now you'll only have to include globals.h and you'll have all the headers included. (DARKGuy)
+- Changed the FPS back to 60. (DARKGuy)
+- Created an Intro and basic Main Menu routines. (DARKGuy)
+- Added data/gui/intro.png and /data/gui/menu.png. (DARKGuy)
+- Simplified the Makefile. (DARKGuy)
+- Removed the "Ticks are:" in weapons.cpp so it doesn't slow down when throwing a bomb and users come for testing the trunk. Weapons are almost ready anyways so no need for that old code. (DARKGuy)
+- Removed the "debinous" level since it's no longer used. (DARKGuy)
+
+20 Jul 07
+- Merged mix of Mike and Doddi's weapon system and iteam enhancements flawlessly. Great job guys!. Players can now shoot bouncing bombs which don't explode... -yet- ;). (DARKGuy).
+- Changed the way we load the song and play it according to the new GP2D modifications made. (DARKGuy)
+- Added a "boing!" sound when jumping.
+
+15 Jul 07
+- Added -fPIC to the new Makefile (thanks Judo). (DARKGuy)
+- Removed the makefiles and unified them into one, they also must have the include path of GP2D, according to Doddi's makefiles so iteam uses those instead of having a local copy on /library_h. The local copy is still needed though. (DARKGuy)
+- Modified TODO. (DARKGuy)
+
+28 Jun 07
+- Forgot to add all of the changes so I'm gonna list the most important ones... (DARKGuy)
+  - Adapted the code to use GP2D's new sprite/spritesheet implemented class by doddi. (DARKGuy)
+  - The countdown timer is broken now, it has to be fixed because it now shows only the first sprite ("3"). (DARKGuy)
+  - Removed the binary files. You'll have to compile the game before running it now. (DARKGuy)
+
+23 Jun 07
+- First changelog file... huh, I should've added one long time ago... well, here it is. (DARKGuy)
+- Removed a few files that aren't gonna be used anymore (Iceworld folder, libgp2d.so in Library_h, mage.png from the characters and Song8.mp3 from the music). (DARKGuy)

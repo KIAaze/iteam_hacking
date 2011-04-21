@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/mickeysofine
+END
+GP2D.cbp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/mickeysofine/GP2D.cbp
+END
+GP2D_new_trunk.kdevelop
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/mickeysofine/GP2D_new_trunk.kdevelop
+END
+Makefile.linux32
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/mickeysofine/Makefile.linux32
+END
+GP2D.layout
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/mickeysofine/GP2D.layout
+END
+gp2d.doxygen
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/mickeysofine/gp2d.doxygen
+END
+gp2d.workspace
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/mickeysofine/gp2d.workspace
+END
+GP2D.depend
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/mickeysofine/GP2D.depend
+END
+Makefile.linux32.nogl
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/mickeysofine/Makefile.linux32.nogl
+END
+Makefile.win32
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/gamepower/!svn/ver/363/GP2D-new/branches/mickeysofine/Makefile.win32
+END

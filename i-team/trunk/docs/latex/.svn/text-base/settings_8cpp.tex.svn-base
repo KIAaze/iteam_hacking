@@ -1,0 +1,27 @@
+\section{Desktop/cleanstuff/i-team/trunk/settings.cpp File Reference}
+\label{settings_8cpp}\index{Desktop/cleanstuff/i-team/trunk/settings.cpp@{Desktop/cleanstuff/i-team/trunk/settings.cpp}}
+settings class 
+
+{\tt \#include $<$fstream$>$}\par
+{\tt \#include $<$iostream$>$}\par
+{\tt \#include $<$stdio.h$>$}\par
+{\tt \#include $<$stdlib.h$>$}\par
+{\tt \#include $<$sys/stat.h$>$}\par
+{\tt \#include $<$dirent.h$>$}\par
+{\tt \#include \char`\"{}settings.h\char`\"{}}\par
+{\tt \#include \char`\"{}globals.h\char`\"{}}\par
+
+
+Include dependency graph for settings.cpp:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=410pt]{settings_8cpp__incl}
+\end{center}
+\end{figure}
+
+
+\subsection{Detailed Description}
+settings class 
+
+Used to store game settings like language and key configuration. Contains methods for loading and saving the settings. On GNU/Linux, settings will be saved to $\sim$/.i-team/settings.txt On Windows, settings will be saved to ./userdata/settings.txt 

@@ -1,0 +1,36 @@
+#!/usr/bin/env python
+
+import sys
+import re
+
+def usage():
+    print
+    print "Usage:"
+    print "python " + sys.argv[0] + " <new class name>"
+    print
+
+def main(new_name):
+
+    cppFile = open(new_name + '.cpp', "w")
+    print 'opened new class file...'
+    srcCpp = open('iteamWeaponTemplate.cpp', "r")
+    print 'opened template'
+    for line in srcCpp.readlines():
+        line = line.replace('iteamMyWeaponNameGoesHere', new_name)
+        cppFile.write(line)
+    print 'processed template, moving to header'
+
+    hFile = open(new_name + '.h', "w")
+    print 'opened new header...'
+    srcH = open('iteamWeaponTemplate.h', "r")
+    print 'opened header template...'
+    for line in srcH.readlines():
+        line = line.replace('iteamMyWeaponNameGoesHere', new_name)
+        hFile.write(line)
+    print 'header processed header and DONE!'
+
+if __name__ == "__main__":
+    if len(sys.argv) <> 2:
+        usage()
+    else:
+	main(sys.argv[1])

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_layout_file>
+<CodeBlocks_layout_file>
+	<File name="basicwidget.cpp" open="1" top="0">
+		<Cursor position="1034" topLine="38"/>
+	</File>
+	<File name="functions.cpp" open="1" top="0">
+		<Cursor position="5368" topLine="169"/>
+	</File>
+	<File name="globals.h" open="0" top="0">
+		<Cursor position="4479" topLine="98"/>
+	</File>
+	<File name="iteam-ai.cpp" open="0" top="0">
+		<Cursor position="249" topLine="0"/>
+	</File>
+	<File name="iteam-ai.h" open="0" top="0">
+		<Cursor position="209" topLine="0"/>
+	</File>
+	<File name="iteam.cpp" open="0" top="0">
+		<Cursor position="14717" topLine="400"/>
+	</File>
+	<File name="mainmenu.cpp" open="0" top="0">
+		<Cursor position="3131" topLine="147"/>
+	</File>
+	<File name="players.cpp" open="1" top="1">
+		<Cursor position="2149" topLine="58"/>
+	</File>
+	<File name="..\bugfixing\lib\3dmath.cpp" open="0" top="0">
+		<Cursor position="1260" topLine="7"/>
+	</File>
+	<File name="..\bugfixing\lib\core.cpp" open="0" top="0">
+		<Cursor position="26753" topLine="791"/>
+	</File>
+	<File name="..\bugfixing\lib\freetype.cpp" open="0" top="0">
+		<Cursor position="4636" topLine="112"/>
+	</File>
+	<File name="..\bugfixing\lib\freetype.h" open="0" top="0">
+		<Cursor position="3042" topLine="66"/>
+	</File>
+	<File name="..\bugfixing\lib\inputhandler.cpp" open="0" top="0">
+		<Cursor position="2753" topLine="83"/>
+	</File>
+	<File name="..\bugfixing\lib\sprite.cpp" open="0" top="0">
+		<Cursor position="0" topLine="339"/>
+	</File>
+	<File name="..\bugfixing\lib\sprite.h" open="0" top="0">
+		<Cursor position="2973" topLine="46"/>
+	</File>
+	<Expand folder="/Sources/Iteam-merge"/>
+	<Expand folder="/Sources/bugfixing/lib"/>
+	<Expand folder="/Sources/bugfixing"/>
+	<Expand folder="/Sources"/>
+	<Expand folder="/Headers/Iteam-merge"/>
+	<Expand folder="/Headers"/>
+</CodeBlocks_layout_file>

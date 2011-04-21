@@ -1,0 +1,25 @@
+# SYNTAX IS:
+# Date (dd/mmm/yy)
+# - Modification made. (author)
+
+23 Aug 07 (KIAaze)
+-Working "merge" finished, but it's ugly and not really merged yet in some places.
+-Needs to be cleaned up and clarified.
+-For left/right movement, we currently still use modification of X in "MoveMe" in players.cpp. Should be removed from MoveMe and 
+placed into the keyhandler function, using vX modification instead (will give us inertia when jumping).
+=>This is not a finished merge!
+
+15 Jul 07
+- Added -fPIC to the new Makefile (thanks Judo). (DARKGuy)
+- Removed the makefiles and unified them into one, they also must have the include path of GP2D, according to Doddi's makefiles so iteam uses those instead of having a local copy on /library_h. The local copy is still needed though. (DARKGuy)
+- Modified TODO.
+
+28 Jun 07
+- Forgot to add all of the changes so I'm gonna list the most important ones... (DARKGuy)
+  - Adapted the code to use GP2D's new sprite/spritesheet implemented class by doddi. (DARKGuy)
+  - The countdown timer is broken now, it has to be fixed because it now shows only the first sprite ("3"). (DARKGuy)
+  - Removed the binary files. You'll have to compile the game before running it now.
+
+23 Jun 07
+- First changelog file... huh, I should've added one long time ago... well, here it is. (DARKGuy)
+- Removed a few files that aren't gonna be used anymore (Iceworld folder, libgp2d.so in Library_h, mage.png from the characters and Song8.mp3 from the music). (DARKGuy)

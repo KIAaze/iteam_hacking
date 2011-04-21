@@ -1,0 +1,34 @@
+\section{Desktop/cleanstuff/i-team/trunk/players.cpp File Reference}
+\label{players_8cpp}\index{Desktop/cleanstuff/i-team/trunk/players.cpp@{Desktop/cleanstuff/i-team/trunk/players.cpp}}
+PlayerObj class. 
+
+{\tt \#include \char`\"{}globals.h\char`\"{}}\par
+{\tt \#include \char`\"{}players.h\char`\"{}}\par
+{\tt \#include \char`\"{}weapons.h\char`\"{}}\par
+{\tt \#include \char`\"{}iteam\_\-maths.h\char`\"{}}\par
+{\tt \#include $<$iostream$>$}\par
+
+
+Include dependency graph for players.cpp:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{players_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Namespaces}
+\begin{CompactItemize}
+\item 
+namespace {\bf iteam}
+\end{CompactItemize}
+\subsection*{Functions}
+\begin{CompactItemize}
+\item 
+void {\bf iteam::AddPlayer} (int PlayerID, GLfloat x, GLfloat y, bool Mirror2, GLfloat Scaling)
+\begin{CompactList}\small\item\em Adds a player into the game and creates its slot in the Player Vector. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+PlayerObj class. 
+
+Player class. 

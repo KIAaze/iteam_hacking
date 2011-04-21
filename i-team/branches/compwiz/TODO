@@ -1,0 +1,44 @@
+=======================================================
+Please look here for an up to date and centralized list of things to do:
+http://iteam-devtalk.wikispaces.com/TODO
+=======================================================
+
+================merged in from my TODO (KIAaze)========
+• debian package with dh-make
+• implement use of autoconf (configure, make, make install)
+• text input: console (dropdown from top) + chat (Warcraft 3 like)
+• improve physics engine: make friction and horizontal inertia work
+• freetype Text centering
+• remove memory leak in trunk!
+• music playlist&switching
+• vehicle class
+• AI
+• credits
+• XML parsing (shouldn't be too hard to do with libxml)
+• pak files
+• gettext
+• heat-seeking missile
+• guided-missile
+• target-lock missile
+• guns! : pistol, machine gun, shotgun, laser (cf Metal Blob Solid (free/libre content&code :D ))
+• other grenades?
+• investigate possibilities of bot and mod creation (python? LUA scripting?)
+• Prepare command-line parsing: at launch as well as for the ingame terminal (I was thinking of counter-strike like commands)
+• Make choose character/vehicle and team-organization menus
+
+=======================================================
+
+=================Original TODO list from trunk=========
+
+30th Oct 2007
+
+- more characters
+- a chat feature
+- network game connectivity
+- a single player mode
+- a configuration page in the main menu for screen size and sound etc
+
+
+15 Jul 2007
+- Remove library_h and make iteam use an user-specified folder for the GP2D header files, which should be defined in the Makefile, if possible. (DARKGuy)
+=======================================================

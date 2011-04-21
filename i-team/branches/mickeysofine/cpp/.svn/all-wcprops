@@ -1,0 +1,359 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp
+END
+WeaponListThumbnail.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/WeaponListThumbnail.h
+END
+iteam_maths.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/iteam_maths.h
+END
+settings.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/settings.cpp
+END
+iteamWeaponTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/iteamWeaponTemplate.cpp
+END
+iteam-installer-gui.glade
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/iteam-installer-gui.glade
+END
+CHANGELOG
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/CHANGELOG
+END
+iteamClusterBomb.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/iteamClusterBomb.h
+END
+explosions.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/explosions.h
+END
+options.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/options.cfg
+END
+install-iteam.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/install-iteam.py
+END
+iteam.depend
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/iteam.depend
+END
+WeaponComponent.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/WeaponComponent.cpp
+END
+functions.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/functions.h
+END
+WeaponsList.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/WeaponsList.h
+END
+mainmenu.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/mainmenu.h
+END
+players.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/players.cpp
+END
+iteam.cbp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/iteam.cbp
+END
+libgp2d.so
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/libgp2d.so
+END
+iteamGrenade.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/iteamGrenade.cpp
+END
+Iteam.desktop
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/Iteam.desktop
+END
+physics.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/physics.h
+END
+WeaponListThumbnail.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/WeaponListThumbnail.cpp
+END
+basicwidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/basicwidget.h
+END
+iteamMissile.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/iteamMissile.h
+END
+iteam-ai.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/iteam-ai.h
+END
+iteam_maths.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/iteam_maths.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/Makefile
+END
+Weapon.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/Weapon.h
+END
+iteamGameApp.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/iteamGameApp.h
+END
+iteam.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/iteam.cpp
+END
+iteamDynamite.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/iteamDynamite.h
+END
+primitives.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/primitives.h
+END
+iteamClusterBomb.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/iteamClusterBomb.cpp
+END
+toto.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/toto.cfg
+END
+explosions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/explosions.cpp
+END
+settings.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/settings.h
+END
+iteam.ws
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/iteam.ws
+END
+functions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/functions.cpp
+END
+WeaponsList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/WeaponsList.cpp
+END
+mainmenu.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/mainmenu.cpp
+END
+iteamWeaponTemplate.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/iteamWeaponTemplate.h
+END
+iteam-installer-png.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/iteam-installer-png.png
+END
+WeaponComponent.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/WeaponComponent.h
+END
+iteam.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/iteam.xpm
+END
+physics.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/physics.cpp
+END
+run
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/run
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/TODO
+END
+players.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/players.h
+END
+basicwidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/basicwidget.cpp
+END
+iteamMissile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/iteamMissile.cpp
+END
+iteam-ai.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/iteam-ai.cpp
+END
+globals.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/globals.h
+END
+Weapon.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/Weapon.cpp
+END
+iteam.layout
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/iteam.layout
+END
+iteamDynamite.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/iteamDynamite.cpp
+END
+iteamGameApp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/iteamGameApp.cpp
+END
+iteamGrenade.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/iteamGrenade.h
+END
+create_weapon
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/create_weapon
+END
+primitives.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/i-team/!svn/ver/301/branches/mickeysofine/cpp/primitives.cpp
+END

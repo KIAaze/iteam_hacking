@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib
+END
+spritesheet.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/spritesheet.cpp
+END
+collision.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/collision.h
+END
+audio.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/audio.cpp
+END
+inputhandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/inputhandler.h
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/Doxyfile
+END
+sprite.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/sprite.h
+END
+test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/test.cpp
+END
+timer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/timer.cpp
+END
+utilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/utilities.h
+END
+lib_classes.log
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/lib_classes.log
+END
+3dmath.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/3dmath.h
+END
+gui_system.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/gui_system.cpp
+END
+freetype.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/freetype.h
+END
+camera.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/camera.cpp
+END
+data
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/data
+END
+collision.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/collision.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/Makefile
+END
+inputhandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/inputhandler.cpp
+END
+fps.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/fps.h
+END
+core.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/core.h
+END
+gp2d.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/gp2d.h
+END
+big_five_template.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/big_five_template.txt
+END
+spritesheet.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/spritesheet.h
+END
+terrain.png
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/terrain.png
+END
+sprite.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/sprite.cpp
+END
+audio.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/audio.h
+END
+utilities.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/utilities.cpp
+END
+dynamite.png
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/dynamite.png
+END
+3dmath.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/3dmath.cpp
+END
+freetype.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/freetype.cpp
+END
+susi.png
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/susi.png
+END
+timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/timer.h
+END
+core.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/core.cpp
+END
+fps.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/fps.cpp
+END
+gui_system.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/gui_system.h
+END
+camera.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/gamepower/!svn/ver/478/GP2D/branches/old/lib/camera.h
+END

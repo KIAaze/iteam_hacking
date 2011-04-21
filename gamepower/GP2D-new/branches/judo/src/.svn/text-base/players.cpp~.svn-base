@@ -1,0 +1,86 @@
+/*! \file players.cpp
+\Players class and related
+
+Used to process actions and movement of players
+*/
+
+#include <string>
+
+#include "gp2d.h"
+
+#include "players.h"
+
+namespace iteam {
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////    iteamPlayer methods
+////
+////////////////////////////////////////////////////////////////////////////////
+
+iteamPlayer::iteamPlayer(GP2DTexture* texture)
+{
+    m_texture = texture;
+    m_window = GP2DWindow::getInstance();
+    m_framerate = GP2DFramerate::getInstance();
+    setWidth(m_texture->getWidth());
+    setHeight(m_texture->getHeight());
+    m_oldTicks = m_framerate->getFPSticks();
+    m_accelerationX = 0.0f;
+    m_accelerationY = 0.0f;
+}
+
+iteamPlayer::~iteamPlayer(void)
+{
+}
+
+void iteamPlayer::setName(std::string name)
+{
+    m_name = name;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+////
+////    playerManager methods
+////
+////////////////////////////////////////////////////////////////////////////////
+
+playerManager::playerManager(void)
+{
+	m_playerCount = 0;
+    collisionManager = new GP2DCollisionManager();
+}
+
+playerManager::~playerManager(void)
+{
+}
+
+void playerManager::main(void)
+{
+    std::map<unsigned short int, iteamPlayer*>::iterator i;
+    for(i = m_players.begin(); i != m_players.end(); i++)
+    {
+        i->second->processPhysics();
+        i->second->draw();
+    }
+}
+
+void playerManager::setAttributes(unsigned short int player, std::string name,
+					             int xCoord, int yCoord)
+{
+    m_players[player]->setName(name);
+    m_players[player]->setX(xCoord);
+    m_players[player]->setY(yCoord);
+}
+
+unsigned short int playerManager::addPlayer(GP2DTexture* texture)
+{
+	m_players[m_playerCount] = new iteamPlayer(texture);
+    m_currentPlayer = m_players[m_playerCount];
+    m_collisions[m_playerCount] = new GP2DPixelCollision(*m_currentPlayer, *m_terrain); // derenferenced values, be careful with m_terrain
+	m_playerCount += 1;
+    unsigned short int temp = m_playerCount - 1;
+	return temp;
+}
+
+} // namespace iteam

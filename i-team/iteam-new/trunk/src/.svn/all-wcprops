@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/i-team/!svn/ver/300/iteam-new/trunk/src
+END
+input.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/i-team/!svn/ver/295/iteam-new/trunk/src/input.cpp
+END
+intro.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/i-team/!svn/ver/297/iteam-new/trunk/src/intro.h
+END
+input.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/i-team/!svn/ver/295/iteam-new/trunk/src/input.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/i-team/!svn/ver/294/iteam-new/trunk/src/main.cpp
+END
+menu.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/i-team/!svn/ver/300/iteam-new/trunk/src/menu.cpp
+END
+engine.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/i-team/!svn/ver/300/iteam-new/trunk/src/engine.cpp
+END
+statemachine.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/i-team/!svn/ver/298/iteam-new/trunk/src/statemachine.cpp
+END
+menu.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/i-team/!svn/ver/298/iteam-new/trunk/src/menu.h
+END
+engine.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/i-team/!svn/ver/300/iteam-new/trunk/src/engine.h
+END
+statemachine.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/i-team/!svn/ver/298/iteam-new/trunk/src/statemachine.h
+END
+intro.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/i-team/!svn/ver/300/iteam-new/trunk/src/intro.cpp
+END

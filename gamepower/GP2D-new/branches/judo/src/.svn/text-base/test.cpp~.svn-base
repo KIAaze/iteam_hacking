@@ -1,0 +1,24 @@
+#include <cstdio>
+
+#include "gp2d.h"
+
+#include "physics.h"
+
+using namespace std;
+using namespace gp2d;
+
+bool quit = false;
+GP2DEngine* engine;
+GP2DWindow* window;
+GP2DPhysWorld* world;
+
+
+int main()
+{
+    world = new GP2DPhysWorld();
+    world->addObject(100.0f, 100.0f, 1.0f, PHYS_RECTANGLE);
+    while (!quit)
+    {
+    }
+    return 0;
+}

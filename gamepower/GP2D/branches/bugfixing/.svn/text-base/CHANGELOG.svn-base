@@ -1,0 +1,76 @@
+# SYNTAX IS:
+# Date (dd/mmm/yy)
+# - Modification made. (author)
+
+18 November 07
+-modified inputHandler::processEvents so that when an unregistered key is hit (happens for all keys except the talk key when in talk mode), it stores keysym.sym and keysym.unicode in current_keysym_sym and current_keysym_unicode respectively AND returns -1.
+-It returns 0 by default.
+-Added the current_keysym_sym and current_keysym_unicode members to the inputHandler class. They are both public.
+-The Makefile now uses -g and -O0 flags to enable debugging with valgrind. Once the memleak is fixed, they can be removed.
+
+16 November 07
+- Merged my branch into trunk (KIAaze)
+*This adds mainly one new function:
+->int SetDataDir(const char DataDir[]) which allows specifying the location of the data folder.
+*Init() will call SetDataDir(".") making the current directory the defult location of the data folder.
+*Made a few corrections to comments and added a few.
+*IMPORTANT: The Makefile in trunk is now only a dummy file calling a real Makefile in "lib". I did this in order to avoid unnecessary recompilations. So if you need to adapt the Makefile, modify the one in "./lib"!
+This new system should not affect the existing python installers since the created library is copied into GP2D/trunk.
+
+27 August 07
+- Merged my branch into trunk (KIAaze)
+*This adds 2 new functions:
+->DrawLine(x1,y1,x2,y2,r,g,b) and DrawRectangle(x1.y1.x2.y2,r,g,b)
+*MouseMove modified to return 1 on MouseMove instead of iButton
+*Some more debugging function removed from CollisionPixel_2
+---
+- Changed some variable types inside Texture::Load(). (DARKGuy)
+- Fixed the bug about the texture not showing due to being bigger than the allowed size by the video card. It got solved by resizing the surface before making it an OpenGL texture. (DARKGuy)
+- imgF in Texture::Load points to imgFile instead of image2 which was incorrect. (DARKGuy)
+- Changed Makefile to add SDL_gfx, aswell as gp2d.h to include SDL_rotozoom.h (SDL_gfx) needed for resizing the surface. (DARKGuy)
+
+24 August 07
+- Added a small check for maximum texture size allowed by the user's video card. (DARKGuy)
+
+23 August 07
+- Finished adding sound functions. There are a few more todo (mainly stopping, pausing, etc) and Music::Load() needs a small check in a function to see if it returns the value it should. (DARKGuy)
+
+22 August 07
+- ... But OpenAL required ALUT, which I didn't want to include due to possible dependency hell. Reverting back to SDL_Mixer. (DARKGuy)
+- Fixed a bug in SetPixelAlpha and GetPixel when coordinates were out of boundaries. It doesn't do anything but inform. The code will segfault after the warning. (DARKGuy)
+- Completed PrintDebug. Now it accepts various parameters just like Printf does. (DARKGuy)
+- Added function FileExists, using compwiz's code for it. (DARKGuy)
+- Fixed all the missing info I wasn't able to put because of a limited PrintDebug. GP2D should be more verbose now. (DARKGuy)
+- Changed message when deleting a localID in the spritesheet.cpp to be more verbose. (DARKGuy)
+- Added ShowCursor and HideCursor, for the mouse. (DARKGuy)
+- Merged KIAaze's Keyboard/Event functions. (DARKGuy)
+
+20 August 07
+- Unexpected segfaults with the current audio code. Switching to OpenAL and removing SDL_Mixer dependencies. (DARKGuy)
+- Successfully implemented basic OpenAL. (DARKGuy)
+
+21 Jul 07
+- Fixed 64-bit makefile thanks to Compwiz. (DARKGuy)
+
+20 Jul 07
+- Added Doddi's Freetype changes for loading 256 characters instead of 128. (DARKGuy)
+- Added new sprite functions by Doddi. (DARKGuy)
+- Added a basic sound system, changed the way musics are played. They must now be a class just like any sprite. Check audio.cpp/h for more info. (DARKGuy)
+
+15 Jul 07
+- Unified the makefiles into one. (DARKGuy)
+- Merged doddi's code modifications for the engine into GP2D, oficially. (DARKGuy)
+
+28 Jun 07
+- Forgot to add all of the changes so I'm gonna list the most important ones... (DARKGuy)
+  - Implemented a Timer class (taken from doddi's gameTimer one, just renamed and integrated into the code) (DARKGuy)
+  - Integrated doddi's sprite and spritesheet code (DARKGuy)
+  - Added a small hack to fix the pix variable in sprite.cpp temporarly so the code would compile (pointer to the sprite texture's SDL_Surface)... it needs to sync with the current spritesheet's image. (DARKGuy)
+  - Fixed a collision bug, IIRC. (DARKGuy)
+  - Removed the binary files. You'll have to compile the library then copy the file to your game's root folder now. (DARKGuy)
+
+23 Jun 07
+- First changelog file... huh, I should've added one long time ago... well, here it is. (DARKGuy)
+- Removed a line in the collision detection routine... &pa wasn't being used, and it caused errors when compiling on Windows. It has no effect removing it anyways, so it's ok. (DARKGuy)
+- Removed the normal makefile, and created a few ones, for different architectures (thanks compwiz18 for the testing on Arch in 64-bit). Compiling should be done now with "make -f Makefile.TYPE"... where type is the type of binary you want to create... Linux32 is for Linux, 32-bit. Linux64 is for Linux, 64-bit... win32 is for Windows 32-bit, and so on. (DARKGuy)
+- Added some defines for detecting the platform and including some Windows header files in gp2d.h (DARKGuy)

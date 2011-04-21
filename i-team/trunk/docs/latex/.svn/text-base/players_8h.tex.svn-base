@@ -1,0 +1,29 @@
+\section{Desktop/cleanstuff/i-team/trunk/players.h File Reference}
+\label{players_8h}\index{Desktop/cleanstuff/i-team/trunk/players.h@{Desktop/cleanstuff/i-team/trunk/players.h}}
+PlayerObj class. 
+
+
+
+This graph shows which files directly or indirectly include this file:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=420pt]{players_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Namespaces}
+\begin{CompactItemize}
+\item 
+namespace {\bf iteam}
+\end{CompactItemize}
+\subsection*{Functions}
+\begin{CompactItemize}
+\item 
+void {\bf iteam::AddPlayer} (int PlayerID, GLfloat x, GLfloat y, bool Mirror2, GLfloat Scaling)
+\begin{CompactList}\small\item\em Adds a player into the game and creates its slot in the Player Vector. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+PlayerObj class. 
+
+Player class. 

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/gamepower/!svn/ver/461/GP2D-new/branches/bitmap_to_polygon
+END
+terrain_small.png
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/gamepower/!svn/ver/447/GP2D-new/branches/bitmap_to_polygon/terrain_small.png
+END
+iteam_leaves_animation.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/gamepower/!svn/ver/444/GP2D-new/branches/bitmap_to_polygon/iteam_leaves_animation.png
+END
+libgp2d.so
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/gamepower/!svn/ver/434/GP2D-new/branches/bitmap_to_polygon/libgp2d.so
+END
+bitmap_to_polygon.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/gamepower/!svn/ver/461/GP2D-new/branches/bitmap_to_polygon/bitmap_to_polygon.cpp
+END
+susi.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/gamepower/!svn/ver/434/GP2D-new/branches/bitmap_to_polygon/susi.png
+END
+terrain.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/gamepower/!svn/ver/446/GP2D-new/branches/bitmap_to_polygon/terrain.png
+END
+missile.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/gamepower/!svn/ver/444/GP2D-new/branches/bitmap_to_polygon/missile.png
+END
+gp2d
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/gamepower/!svn/ver/434/GP2D-new/branches/bitmap_to_polygon/gp2d
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/gamepower/!svn/ver/461/GP2D-new/branches/bitmap_to_polygon/Makefile
+END
+bitmap_to_polygon.kdevelop
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/gamepower/!svn/ver/444/GP2D-new/branches/bitmap_to_polygon/bitmap_to_polygon.kdevelop
+END

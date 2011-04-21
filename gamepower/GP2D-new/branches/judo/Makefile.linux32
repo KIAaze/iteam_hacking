@@ -1,0 +1,102 @@
+CC=g++ -g
+CFLAGS=-fPIC \
+		`freetype-config --cflags` \
+        `sdl-config --cflags` \
+        -Wall -O2
+            
+LDFLAGS=`freetype-config --libs` \
+		`sdl-config --libs` \
+        -lSDL \
+        -lSDLmain \
+        -lSDL_net \
+        -lSDL_mixer \
+        -lSDL_image \
+        -lSDL_gfx \
+        -lSDL_ttf \
+        -lGL \
+        -lGLU
+            
+# The binary shared object and executable target files.
+BINARY_SO=libgp2d.so
+BINARY_EXEC=test
+
+# Target and source directories.
+SRC=./src
+BIN=./bin
+
+# The object files after compiling.
+OBJECTS_MAIN=$(BIN)/graphics.o $(BIN)/core.o $(BIN)/input.o $(BIN)/collision.o $(BIN)/framerate.o $(BIN)/text.o $(BIN)/physics.o #$(BIN)/network.o
+
+OBJECTS_TEST=$(BIN)/test.o $(OBJECTS_MAIN)
+OBJECTS_TEST2=$(BIN)/test2.o $(OBJECTS_MAIN)
+OBJECTS_TEST3=$(BIN)/test3.o $(OBJECTS_MAIN)
+
+# This target makes the shared object.
+.PHONY: all
+all: init $(OBJECTS_MAIN)
+	$(CC) $(LDFLAGS) -shared -o $(BIN)/$(BINARY_SO) $(OBJECTS_MAIN)
+
+$(BIN)/text.o: $(SRC)/text.cpp $(SRC)/text.h
+	$(CC) $(CFLAGS) -c $(SRC)/text.cpp -o $(BIN)/text.o
+
+.PHONY: test
+test: init $(OBJECTS_TEST)
+	$(CC) $(LDFLAGS) -o $(BIN)/$(BINARY_EXEC) $(OBJECTS_TEST)
+
+.PHONY: test2
+test2: init $(OBJECTS_TEST2)
+	$(CC) $(LDFLAGS) -o $(BIN)/$(BINARY_EXEC) $(OBJECTS_TEST2)
+
+.PHONY: test3
+test3: init $(OBJECTS_TEST3)
+	$(CC) $(LDFLAGS) -o $(BIN)/$(BINARY_EXEC) $(OBJECTS_TEST3)
+
+.PHONY: init
+init:
+	mkdir -p $(BIN)
+	
+# The actual targets for compiling individual source files (along with their
+# dependencies) are starting from here. Why did I write it like this? Well,
+# mainly because it is very helpful in compiling it for testing purposes. 
+# If a source file is not changed, it won't be compiled. Speedier compile times!
+#
+# And every target starts with $(BIN)/ because the `all` and `test` targets
+# refer to the $(BIN)/xxx.o stuff too. Ask Azzkikr for more details.
+
+$(BIN)/core.o: $(SRC)/core.cpp $(SRC)/core.h
+	$(CC) $(CFLAGS) -c $(SRC)/core.cpp -o $(BIN)/core.o
+
+$(BIN)/input.o: $(SRC)/input.cpp $(SRC)/input.h
+	$(CC) $(CFLAGS) -c $(SRC)/input.cpp -o $(BIN)/input.o
+
+$(BIN)/graphics.o: $(SRC)/graphics.cpp $(SRC)/graphics.h
+	$(CC) $(CFLAGS) -c $(SRC)/graphics.cpp -o $(BIN)/graphics.o
+
+$(BIN)/collision.o: $(SRC)/collision.cpp $(SRC)/collision.h
+	$(CC) $(CFLAGS) -c $(SRC)/collision.cpp -o $(BIN)/collision.o
+
+$(BIN)/framerate.o: $(SRC)/framerate.cpp $(SRC)/framerate.h
+	$(CC) $(CFLAGS) -c $(SRC)/framerate.cpp -o $(BIN)/framerate.o
+
+$(BIN)/physics.o: $(SRC)/physics.cpp $(SRC)/physics.h
+	$(CC) $(CFLAGS) -c $(SRC)/physics.cpp -o $(BIN)/physics.o
+
+$(BIN)/network.o: $(SRC)/network.cpp $(SRC)/network.h
+	$(CC) $(CFLAGS) -c $(SRC)/network.cpp -o $(BIN)/network.o
+
+$(BIN)/text.o: $(SRC)/text.cpp $(SRC)/text.h
+	$(CC) $(CFLAGS) -c $(SRC)/text.cpp -o $(BIN)/text.o
+
+$(BIN)/test.o: $(SRC)/test.cpp
+	$(CC) $(CFLAGS) -c $(SRC)/test.cpp -o $(BIN)/test.o
+
+$(BIN)/test2.o: $(SRC)/test2.cpp
+	$(CC) $(CFLAGS) -c $(SRC)/test2.cpp -o $(BIN)/test2.o
+
+$(BIN)/test3.o: $(SRC)/test3.cpp
+	$(CC) $(CFLAGS) -c $(SRC)/test3.cpp -o $(BIN)/test3.o
+
+# Cleanup.
+.PHONY: clean
+clean:
+	rm -rf ./bin
