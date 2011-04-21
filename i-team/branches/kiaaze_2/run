@@ -1,2 +1,0 @@
-export LD_LIBRARY_PATH=../../gp2d/trunky:$LD_LIBRARY_PATH
-./iteam

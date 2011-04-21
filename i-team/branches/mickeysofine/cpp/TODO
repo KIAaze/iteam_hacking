@@ -1,6 +1,0 @@
-# SYNTAX IS:
-# Date (dd/mmm/yy)
-# - Description. (author)
-
-15 Jul 2007
-- Remove library_h and make iteam use an user-specified folder for the GP2D header files, which should be defined in the Makefile, if possible. (DARKGuy)

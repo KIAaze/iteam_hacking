@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE CodeBlocks_layout_file>
-<CodeBlocks_layout_file>
-	<Expand folder="/Sources/lib"/>
-	<Expand folder="/Sources"/>
-	<Expand folder="/Headers/lib"/>
-	<Expand folder="/Headers"/>
-</CodeBlocks_layout_file>
